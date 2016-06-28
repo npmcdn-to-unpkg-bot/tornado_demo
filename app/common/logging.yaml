@@ -1,0 +1,33 @@
+# logging.yaml
+
+version: 1
+disable_existing_loggers: false
+formatters:
+  simple:
+    format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+
+loggers:
+  all:
+    handlers: [all]
+    propagate: false
+  tornado:
+    handlers: [all]
+    propagate: false
+
+handlers:
+  console:
+    class: logging.StreamHandler
+    level: INFO
+    formatter: simple
+    stream: ext://sys.stdout
+  all:
+    class: logging.handlers.TimedRotatingFileHandler
+    level: INFO
+    formatter: simple
+    when: h     # s-按秒，m-按分钟，h-按小时，d-按天，w0-w6-按指定的星期几，midnight-在午夜
+    filename: ./logs/server.log
+
+root:
+  level: INFO
+  handlers: [console, all]
+  propagate: true
