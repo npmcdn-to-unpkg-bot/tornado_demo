@@ -1,0 +1,179 @@
+{% extends "../base.html" %}
+{% block content %}
+<style>
+    .checkAllOff {
+        background: url("/images/checkAllOff.gif") no-repeat scroll 4px 2px;
+        cursor: pointer;
+        font-size: 10px;
+        border-bottom: 0;
+        color: #666666;
+        font-weight: bold;
+        vertical-align: baseline;
+    }
+
+    .checkAllOn {
+        background: url(/images/checkAllOn.gif) no-repeat scroll 4px 2px;
+        cursor: pointer;
+        font-size: 10px;
+        border-bottom: 0;
+        color: #666666;
+        font-weight: bold;
+        vertical-align: baseline;
+    }
+</style>
+<div id="content">
+    <div id="content-header">
+        <div id="breadcrumb">
+            <a href="/" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a>
+            <a href="" class="current">email</a>
+        </div>
+        <h1>邮件接口页面，实现查询历史纪录及相关统计</h1>
+    </div>
+    <div class="container-fluid">
+        <hr>
+        <div class="row-fluid">
+            <div class="span12">
+                <div class="widget-box">
+                    <div class="widget-title">
+                        <span class="icon"> <i class="icon-hand-right"></i> </span>
+                        <h5>搜索</h5>
+                    </div>
+                    <div class="widget-content nopadding">
+                        <form class="form-horizontal">
+                            {% raw xsrf_form_html() %}
+                            <div class="form-actions">
+                                收件人：<input id="obj__address" type="text" style="width: 150px"/>
+                                <input id="btnSearch" type="button" class="btn btn-success" value="搜 索"
+                                       onclick="btn_Search()"/>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="widget-box">
+                    <div class="widget-title">
+                        <span class="icon"> <i class="icon-hand-right"></i> </span>
+                        <h5>统计信息</h5>
+                    </div>
+                    <div class="widget-content" style="height:100px;">
+                        <ul class="quick-actions">
+                            <li class="bg_lb"><a href="#"> <i class="icon-envelope-alt"></i>邮件总数：119523 </a></li>
+                            <li class="bg_lg"><a href="#"> <i class="icon-envelope-alt"></i>成功次数：119523 </a></li>
+                            <li class="bg_lo"><a href="#"> <i class="icon-envelope-alt"></i>失败次数：0 </a></li>
+                            <li class="bg_lg"><a href="#"> <i class="icon-ok"></i>正确类型：22051 </a></li>
+                            <li class="bg_lo"><a href="#"> <i class="icon-remove"></i>错误类型：25515 </a></li>
+                            <li class="bg_lb"><a href="#"> <i class="icon-list-ol"></i>队列数目：0 </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="widget-box">
+                    <div class="widget-title"><span class="icon"> <i class="icon-hand-right"></i> </span>
+                        <h5>Labels and badges</h5>
+                    </div>
+
+                    <div class="widget-content nopadding">
+                        <div id="DataTables_Table_0_wrapper" class="dataTables_wrapper" role="grid">
+                            <table class="table table-bordered data-table dataTable" id="DataTables_Table_0">
+                                <thead>
+                                <tr role="row">
+                                    <!--<th><label id="CheckButton" class="checkAllOff" title="全选">全选</label></th>-->
+                                    <th>发件人</th>
+                                    <th>收件人</th>
+                                    <th>主题</th>
+                                    <th>时间</th>
+                                </tr>
+                                </thead>
+
+                                <tbody role="alert" aria-live="polite" aria-relevant="all" id="js_data">
+
+                                </tbody>
+                            </table>
+                            <div class="fg-toolbar ui-toolbar ui-widget-header ui-corner-bl ui-corner-br ui-helper-clearfix">
+                                <div class="dataTables_paginate fg-buttonset ui-buttonset fg-buttonset-multi ui-buttonset-multi paging_full_numbers"
+                                     id="DataTables_Table_0_paginate">
+                                    <div class="pagination alternate" style="margin: 0px 0px;" id="js_page">
+                                        <ul style="margin-right: 0px;">
+                                            <li class="disabled"><a href="#">Prev</a></li>
+                                            <li class="active"><a href="#">1</a></li>
+                                            <li><a href="#">2</a></li>
+                                            <li><a href="#">3</a></li>
+                                            <li><a href="#">4</a></li>
+                                            <li><a href="#">Next</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% end %}
+{% block footer %}
+<script>
+    var page_index = 1;
+    function GetGrid() {
+        var address = $("#obj__address").val();
+        var postData = '&address=' + address + '&page_index=' + page_index + '&_xsrf=' + getCookie("_xsrf");
+        $.ajax({
+            type: 'post',
+            url: '/api/email_data',
+            dataType: 'json',
+            data: postData,
+            cache: false,
+            async: false,
+            beforeSend: function () {
+                $("#js_data").empty();
+                $("#js_data").append("<td colspan='4'><img src='/images/loading.gif'</td>");
+            },
+            success: function (data) {
+                page_index = data.page_index;
+                var li = "";
+                $.each(data['rows'], function (index, array) {
+                    li += "<tr>";
+                    //li += '<td><input type="checkbox" style="vertical-align: middle;" value="' + array['EmailId'] + '"></td>'
+                    li += "<td>" + array["sender"] + "</td>";
+                    li += "<td>" + array["address"] + "</td>";
+                    li += "<td>" + array["theme"] + "</td>";
+                    li += "<td>" + array["create_at"] + "</td>";
+                    li += "</tr>";
+                });
+                $("#js_data").empty();
+                $("#js_data").append(li);
+
+                $("#js_page").empty();
+                $("#js_page").append(data['page_info']);
+            },
+            error: function (data) {
+                alert("error:" + JSON.stringify(data));
+                Loading(false);
+            }
+        })
+    }
+    GetGrid();
+    function btn_Search() {
+        GetGrid();
+    }
+
+    //自定义复选框 全选/反选
+    $("#CheckButton").click(function () {
+        if (!$('.sys_spec_text').find('a').hasClass('disabled')) {
+            if (!!$(this).hasClass("checkAllOff")) {
+                $(this).attr('title', '反选');
+                $(this).text('反选');
+                $(this).attr('class', 'checkAllOn');
+                $("#js_data").find('input[type="checkbox"]').attr('checked', 'checked');
+            } else {
+                $(this).attr('title', '全选');
+                $(this).text('全选');
+                $(this).attr('class', 'checkAllOff');
+                $("#js_data").find('input[type="checkbox"]').removeAttr('checked');
+            }
+        }
+    })
+
+
+</script>
+{% end %}

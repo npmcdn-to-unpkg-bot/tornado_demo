@@ -1,0 +1,169 @@
+{% extends "../base.html" %}
+{% block content %}
+    <!--日期组件start-->
+    <script src="/Content/Scripts/datepicker/WdatePicker.js"></script>
+    <!--日期组件start-->
+    <div id="content">
+        <div id="content-header">
+            <div id="breadcrumb">
+                <a href="/" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a>
+                <a href="" class="current">sms</a>
+            </div>
+            <h1>短信接口页面，实现查询历史纪录及相关统计</h1>
+        </div>
+        <div class="container-fluid">
+            <hr>
+            <div class="row-fluid">
+                <div class="span12">
+
+                    <div class="widget-box">
+                        <div class="widget-title">
+                            <span class="icon"> <i class="icon-hand-right"></i> </span>
+                            <h5>统计信息</h5>
+                        </div>
+                        <div class="widget-content" style="height:100px;">
+                            <ul class="quick-actions">
+                                <li class="bg_lb"><a href="#"> <i class="icon-envelope-alt"></i>短信总数：119523 </a></li>
+                                <li class="bg_lg"><a href="#"> <i class="icon-envelope-alt"></i>成功次数：119523 </a></li>
+                                <li class="bg_lo"><a href="#"> <i class="icon-envelope-alt"></i>失败次数：0 </a></li>
+                                <li class="bg_lb"><a href="#"> <i class="icon-list-ol"></i>队列数目：0 </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="widget-box">
+                        <div class="widget-content nopadding">
+                            <form class="form-horizontal">
+                                <div class="form-actions">
+                                    {% raw xsrf_form_html() %}
+                                    手机号码：<input id="phone_number" type="text" style="width: 150px"/>
+                                    发送时间：<input id="start_time" type="text" class="Wdate" value="{{ start_date }}" style="width: 120px" onfocus="var endDate=$dp.$('end_time');WdatePicker({onpicked:function(){end_time.focus();},maxDate:'#F{$dp.$D(\'end_time\')}'})"/> -
+                                                <input id="end_time" type="text" class="Wdate" value="{{ end_date }}" style="width: 120px" onfocus="WdatePicker({minDate:'#F{$dp.$D(\'start_time\')}'})"/>
+                                    <input id="btnSearch" type="button" class="btn btn-success" value="搜 索" onclick="btn_Search()"/>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="widget-box">
+                        <div class="widget-title"><span class="icon"> <i class="icon-hand-right"></i> </span>
+                            <h5>短信</h5>
+                        </div>
+
+                        <div class="widget-content nopadding">
+                            <div id="DataTables_Table_0_wrapper" class="dataTables_wrapper" role="grid">
+                            <table class="table table-bordered data-table dataTable" id="DataTables_Table_0">
+                                <thead>
+                                    <tr role="row">
+                                        <th>手机号码</th>
+                                        <th>发送内容</th>
+                                        <th>发送时间</th>
+                                        <th>发送状态</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody role="alert" aria-live="polite" aria-relevant="all" id="js_data">
+
+                                </tbody>
+                            </table>
+                            <div class="fg-toolbar ui-toolbar ui-widget-header ui-corner-bl ui-corner-br ui-helper-clearfix">
+                                <div class="dataTables_paginate fg-buttonset ui-buttonset fg-buttonset-multi ui-buttonset-multi paging_full_numbers"
+                                     id="DataTables_Table_0_paginate">
+                                    <div class="pagination alternate" style="margin: 0px 0px;" id="js_page">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+{% end %}
+{% block footer %}
+    <script>
+        var page_index = 1;
+    function GetGrid() {
+        var phone_number = $("#phone_number").val();
+        var start_time = $("#start_time").val();
+        var end_time = $("#end_time").val();
+        var postData = '&phone_number=' + phone_number + '&start_time=' + start_time + '&end_time=' + end_time + '&page_index=' + page_index + '&_xsrf=' + getCookie("_xsrf");
+        $.ajax({
+            type: 'post',
+            url: '/api/sms_data',
+            dataType: 'json',
+            data: postData,
+            cache: false,
+            async: false,
+            beforeSend: function () {
+                $("#js_data").empty();
+                $("#js_data").append("<tr><td colspan='4'><img src='/images/loading.gif'</td></tr>");
+            },
+            success: function (data) {
+                page_index = data.page_index;
+                var li = "";
+                $.each(data['rows'], function (index, array) {
+                    li += "<tr>";
+                    li += "<td>" + array["phone_number"] + "</td>";
+                    li += "<td>" + array["send_content"] + "</td>";
+                    li += "<td>" + array["create_at"] + "</td>";
+                    li += "<td>" + array["send_status"] + "</td>";
+                    li += "</tr>";
+                });
+                $("#js_data").empty();
+                $("#js_data").append(li);
+
+                $("#js_page").empty();
+                $("#js_page").append(data['page_info']);
+            },
+            error: function (data) {
+                alert("error:" + JSON.stringify(data));
+                Loading(false);
+            }
+        })
+    }
+    GetGrid();
+    function btn_Search() {
+        GetGrid();
+    }
+
+
+
+
+
+        //发送短信
+        function btn_SendNote() {
+            Loading(true);
+            top.$.dialog({
+                id: "SendNote", width: 550, height: 300, lock: true, max: false, resize: false, extendDrag: true,
+                title: "发送短信",
+                content: 'url:/ExampleModule/PhoneNote/Form',
+                button: [
+                    {
+                        name: '发 送',
+                        className: 'green',
+                        callback: function () {
+                            top.frames['SendNote'].AcceptClick()
+                            return false;
+                        }
+                    },
+                    {
+                        name: '关 闭'
+                    }
+                ]
+            });
+        }
+        //删除
+        function btn_delete() {
+            var KeyValue = GetJqGridRowValue("#gridTable", "PhoneNoteId");
+            if (IsDelData(KeyValue)) {
+                var delparm = 'KeyValue=' + KeyValue;
+                delConfig('/ExampleModule/PhoneNote/Delete', delparm, KeyValue.split(",").length);
+            }
+        }
+        //刷新
+        function windowload() {
+            $("#gridTable").trigger("reloadGrid"); //重新载入
+        }
+    </script>
+{% end %}

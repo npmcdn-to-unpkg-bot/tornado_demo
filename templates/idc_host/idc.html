@@ -1,0 +1,65 @@
+<html class="cye-disabled cye-lm">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>运维统一管理平台-机柜模拟图</title>
+    <link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link rel="stylesheet" href="/css/idc.css"/>
+    </head>
+<div id="cyeBlackMaskLayer" style="position: fixed; width: 1980px; height: 1080px; z-index: -2147483648; background-color: rgb(19, 19, 19);"></div>
+<body>
+{% raw xsrf_form_html() %}
+<table width="1058" height="736" border="0" align="center" cellpadding="2" cellspacing="0">
+    <tbody>
+        <tr>
+            <td width="16" height="1000" background="/images/serverico/qiang.gif" bgcolor="#eeeeee">&nbsp;</td>
+            <td width="1104" rowspan="2" align="center" valign="top" id="js_data">
+
+            </td>
+        </tr>
+        <tr>
+            <td align="center" valign="middle" bgcolor="#999999">
+                <p class="big_title">大</p>
+                <p class="big_title">门</p>
+                <p class="big_title">入</p>
+                <p class="big_title">口</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</body>
+<div id="cye-workaround-body"
+     style="position: absolute; left: 0px; top: 0px; z-index: -2147483646; height: 3702px; width: 1349px; background: none 0% 0% / auto repeat scroll padding-box border-box white;"></div>
+<div id="cye-workaround-body-image"
+     style="position: absolute; left: 0px; top: 0px; z-index: -2147483645; height: 3702px; width: 1349px; background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0);"></div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/matrix.popover.js"></script>
+<script src="/js/misc.js"></script>
+<script>
+    //加载表格
+    function GetGrid() {
+        // var room_id = $("#obj__ip").val();
+        var postData = '&room_id=1&_xsrf=' + getCookie("_xsrf");
+        $.ajax({
+            type: 'post',
+            url: '/idc',
+            dataType: 'html',
+            data: postData,
+            cache: false,
+            async: false,
+            beforeSend: function () {
+            },
+            success: function (data) {
+                $("#js_data").empty();
+                $("#js_data").append(data);
+            },
+            error: function (data) {
+                alert("error:" + JSON.stringify(data));
+                Loading(false);
+            }
+        })
+    }
+    GetGrid();
+
+</script>
+</html>

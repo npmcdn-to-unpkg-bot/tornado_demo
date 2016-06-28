@@ -1,0 +1,143 @@
+{% extends "base.html" %}
+{% block content %}
+<div id="content">
+    <div id="content-header">
+        <div id="breadcrumb"> 
+            <a href="#" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a>
+            <a href="#" class="current">Message</a>
+        </div>
+        <h1>系统监控</h1>
+    </div>
+    <div class="container-fluid">
+        <hr>
+        <div class="row-fluid">
+            <div class="span12">
+                <div class="widget-box">
+                    <div class="widget-title"><span class="icon"> <i class="icon-filter"></i> </span>
+                        宿主机IP：<input type="text" class="span3" placeholder="主机IP">
+                        <a title="" id="example" class="btn btn-success" href="#">查询</a>
+                    </div>
+                </div>
+                <div class="widget-box">
+                    <div class="widget-title"><span class="icon"> <i class="icon-hand-right"></i> </span>
+                        <h5>队列</h5>
+                    </div>
+                    <div class="widget-content nopadding">
+                        <table class="table table-bordered data-table">
+                            <thead>
+                                <tr>
+                                    <th>宿主机IP</th>
+                                    <th>温度</th>
+                                    <th>电池</th>
+                                    <th>风扇</th>
+                                    <th>内存</th>
+                                    <th>处理器</th>
+                                    <th>CURRENT</th>
+                                    <th>电压</th>
+                                    <th>功率</th>
+                                    <th>查看详情</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="odd gradeX">
+                                    <td> 10.5.200.187</td>
+                                    <td> ok</td>
+                                    <td> ok</td>
+                                    <td> ok</td>
+                                    <td> ok</td>
+                                    <td> ok</td>
+                                    <td> ok</td>
+                                    <td> ok</td>
+                                    <td> ok</td>
+
+                                    <td>
+                                        <center><a href="/assets/list/idrac?lan=10.5.200.187" target="_blank">
+
+                                                <img src="image/green.gif" style="width:10px;">
+
+                                        </a></center>
+                                    </td>
+                                </tr>
+                                
+                                <tr class="even gradeC">
+                                    <td> 10.5.200.190</td>
+                                    <td> ok</td>
+                                    <td> ok</td>
+                                    <td> error</td>
+                                    <td> ok</td>
+                                    <td> ok</td>
+                                    <td> ok</td>
+                                    <td> ok</td>
+                                    <td> ok</td>
+
+                                    <td>
+                                        <center><a href="/assets/list/idrac?lan=10.5.200.190" target="_blank">
+
+                                                <img src="image/red.gif" style="width:10px;">
+
+                                        </a></center>
+                                    </td>
+                                    
+                                </tr>
+                                <tr class="even gradeC">
+                                    <td> 10.5.200.191</td>
+                                    <td> ok</td>
+                                    <td> ok</td>
+                                    <td> ok</td>
+                                    <td> ok</td>
+                                    <td> ok</td>
+                                    <td> ok</td>
+                                    <td> ok</td>
+                                    <td> ok</td>
+
+                                    <td>
+                                        <center><a href="/assets/list/idrac?lan=10.5.200.191" target="_blank">
+
+                                                <img src="image/green.gif" style="width:10px;">
+
+                                        </a></center>
+                                    </td>
+                                </tr>  
+                                <tr class="even gradeC">
+                                    <td> 10.5.200.192</td>
+                                    <td> ok</td>
+                                    <td> ok</td>
+                                    <td> ok</td>
+                                    <td> ok</td>
+                                    <td> ok</td>
+                                    <td> ok</td>
+                                    <td> ok</td>
+                                    <td> ok</td>
+
+                                    <td>
+                                        <center><a href="/assets/list/idrac?lan=10.5.200.192" target="_blank">
+
+                                                <img src="image/green.gif" style="width:10px;">
+
+                                        </a></center>
+                                    </td>
+                                </tr>                                  
+                                                                   
+                            </tbody>
+                        </table>
+            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block footer %}
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/jquery.ui.custom.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+<script src="/static/js/jquery.gritter.min.js"></script>
+<script src="/static/js/jquery.peity.min.js"></script>
+<script src="/static/js/matrix.js"></script>
+<script src="/static/js/matrix.interface.js"></script>
+<script src="/static/js/matrix.popover.js"></script>
+<script src="/static/js/jquery.dataTables.min.js"></script>
+<script src="/static/js/matrix.js"></script>
+<script src="/static/js/matrix.tables.js"></script>
+{% endblock %}

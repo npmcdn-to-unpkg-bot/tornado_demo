@@ -1,0 +1,48 @@
+{% extends "../base.html" %}
+{% block content %}
+<div id="content">
+    <div id="content-header">
+        <div id="breadcrumb">
+            <a href="/index" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a>
+            <a href="" class="current">Role</a>
+        </div>
+        <h1>角色添加</h1>
+    </div>
+    <div class="container-fluid"><hr>
+        <div class="row-fluid">
+            <div class="span12">
+                <div class="widget-box">
+                    <div class="widget-title"> <span class="icon"> <i class="icon-info-sign"></i> </span>
+                    <h5>角色信息</h5>
+                    </div>
+                    <div class="widget-content nopadding">
+                        <form class="form-horizontal" method="post" action="" name="basic_validate" id="basic_validate" novalidate="novalidate">
+                            {% raw xsrf_form_html() %}
+                            <div class="control-group">
+                                <label class="control-label">角色名称</label>
+                                <div class="controls">
+                                    <input class="form-control" id="obj__role_name" name="obj__role_name" type="text" placeholder="角色名称">
+                                </div>
+                            </div>
+
+                            <div class="form-actions" style="text-align:center;">
+                                <button type="submit" class="btn btn-success">Save</button>
+                                <button type="button" class="btn btn-danger" onclick="goBack();">Cancel</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% end %}
+{% block footer %}
+    <script>
+        function goBack() {
+            location.href=document.referrer;
+        }
+    </script>
+
+{% end %}

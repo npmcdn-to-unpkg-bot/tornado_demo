@@ -1,0 +1,262 @@
+{% extends "base.html" %}
+{% block content %}
+<style>
+    .coding{text-align:center}
+</style>
+<div id="content">
+    <div id="content-header">
+        <div id="breadcrumb"> 
+            <a href="#" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a>
+            <a href="#" class="current">System</a>
+        </div>
+        <h1>系统监控</h1>
+    </div>
+    <div class="container-fluid">
+        <hr>
+        <div class="row-fluid">
+            <div class="span3">
+                <div class="widget-box">
+                    <div class="widget-title"> <span class="icon"> <i class="icon-signal"></i> </span>
+                    <h5>10.5.1.100</h5>
+                    </div>
+                    <div class="widget-content">
+                        <div id="pie0" class="bars"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="span3">
+                <div class="widget-box">
+                    <div class="widget-title"> <span class="icon"> <i class="icon-signal"></i> </span>
+                    <h5>10.5.1.101</h5>
+                    </div>
+                    <div class="widget-content">
+                        <div id="pie1" class="bars"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="span3">
+                <div class="widget-box">
+                    <div class="widget-title"> <span class="icon"> <i class="icon-signal"></i> </span>
+                    <h5>10.5.1.102</h5>
+                    </div>
+                    <div class="widget-content">
+                        <div id="pie2" class="bars"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="span3">
+                <div class="widget-box">
+                    <div class="widget-title"> <span class="icon"> <i class="icon-signal"></i> </span>
+                    <h5>10.5.1.103</h5>
+                    </div>
+                    <div class="widget-content">
+                        <div id="pie3" class="bars"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block footer %}
+<script src="/js/jquery.min.js"></script>
+
+<script src="/js/echarts-all.js"></script>
+<script>
+var dataStyle = {
+    normal: {
+        label: {show:false},
+        labelLine: {show:false}
+    }
+};
+var placeHolderStyle = {
+    normal : {
+        color: 'rgba(0,0,0,0)',
+        label: {show:false},
+        labelLine: {show:false}
+    },
+    emphasis : {
+        color: 'rgba(0,0,0,0)'
+    }
+};
+    function get_data_pie(data) {
+        option = {
+            title: {
+                text: ' ',
+                subtext: ' ',
+                sublink: ' ',
+                x: 'center',
+                y: 'top',
+                itemGap: 20,
+                textStyle: {
+                    color: 'rgba(30,144,255,0.8)',
+                    fontFamily: '微软雅黑',
+                    fontSize: 30,
+                    fontWeight: 'bolder'
+                }
+            },
+            tooltip: {
+                show: true,
+                formatter: "{a} <br/>{b} : {c} ({d}%)"
+            },
+            legend: {
+                orient: 'vertical',
+                x: document.getElementById('pie0').offsetWidth / 2,
+                y: 32,
+                itemGap: 1.5,
+                data: ['CPU', 'Memory', 'Disk1', 'Disk2']
+            },
+            toolbox: {
+                show: false,
+                feature: {
+                    mark: {show: true},
+                    dataView: {show: true, readOnly: false},
+                    restore: {show: true},
+                    saveAsImage: {show: true}
+                }
+            },
+            series: [
+                {
+                    name: '1',
+                    type: 'pie',
+                    clockWise: false,
+                    radius: [100, 115],
+                    itemStyle: dataStyle,
+                    data: [
+                        {
+                            value: data[0],
+                            name: 'CPU'
+                        },
+                        {
+                            value: 100 - data[0],
+                            name: 'invisible',
+                            itemStyle: placeHolderStyle
+                        }
+                    ]
+                },
+                {
+                    name: '2',
+                    type: 'pie',
+                    clockWise: false,
+                    radius: [85, 100],
+                    itemStyle: dataStyle,
+                    data: [
+                        {
+                            value: data[1],
+                            name: 'Memory'
+                        },
+                        {
+                            value: 100 - data[1],
+                            name: 'invisible',
+                            itemStyle: placeHolderStyle
+                        }
+                    ]
+                },
+                {
+                    name: '3',
+                    type: 'pie',
+                    clockWise: false,
+                    radius: [70, 85],
+                    itemStyle: dataStyle,
+                    data: [
+                        {
+                            value: data[2],
+                            name: 'Disk1'
+                        },
+                        {
+                            value: 100 - data[2],
+                            name: 'invisible',
+                            itemStyle: placeHolderStyle
+                        }
+                    ]
+                },
+                {
+                    name: '4',
+                    type: 'pie',
+                    clockWise: false,
+                    radius: [55, 70],
+                    itemStyle: dataStyle,
+                    data: [
+                        {
+                            value: data[3],
+                            name: 'Disk2'
+                        },
+                        {
+                            value: 100 - data[3],
+                            name: 'invisible',
+                            itemStyle: placeHolderStyle
+                        }
+                    ]
+                },
+                {
+                    name: '5',
+                    type: 'pie',
+                    clockWise: false,
+                    radius: [40, 55],
+                    itemStyle: dataStyle,
+                    data: [
+                        {
+                            value: data[4],
+                            name: 'Filesystem #3'
+                        },
+                        {
+                            value: 100 - data[4],
+                            name: 'invisible',
+                            itemStyle: placeHolderStyle
+                        }
+                    ]
+                },
+                {
+                    name: '6',
+                    type: 'pie',
+                    clockWise: false,
+                    radius: [25, 40],
+                    itemStyle: dataStyle,
+                    data: [
+                        {
+                            value: data[5],
+                            name: 'Filesystem #4'
+                        },
+                        {
+                            value: 100 - data[5],
+                            name: 'invisible',
+                            itemStyle: placeHolderStyle
+                        }
+                    ]
+                },
+                {
+                    name: '7',
+                    type: 'pie',
+                    clockWise: false,
+                    radius: [10, 25],
+                    itemStyle: dataStyle,
+                    data: [
+                        {
+                            value: data[6],
+                            name: 'Filesystem #5'
+                        },
+                        {
+                            value: 100 - data[6],
+                            name: 'invisible',
+                            itemStyle: placeHolderStyle
+                        }
+                    ]
+                }
+            ]
+        };
+        return option;
+    }
+
+    var myChartPie0 = echarts.init(document.getElementById('pie0'));
+    myChartPie0.setOption(get_data_pie([60, 70, 80, 90]));
+
+    var myChartPie1 = echarts.init(document.getElementById('pie1'));
+    myChartPie1.setOption(get_data_pie([90, 80, 70, 90]));
+
+    var myChartPie2 = echarts.init(document.getElementById('pie2'));
+    myChartPie2.setOption(get_data_pie([80, 70, 90, 100]));
+
+    var myChartPie3 = echarts.init(document.getElementById('pie3'));
+    myChartPie3.setOption(get_data_pie([70, 80, 90, 100]));
+</script>
+{% endblock %}

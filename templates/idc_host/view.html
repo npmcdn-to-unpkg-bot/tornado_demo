@@ -1,0 +1,60 @@
+{% extends "../base.html" %}
+{% block content %}
+<div id="content">
+    <div id="content-header">
+        <div id="breadcrumb">
+            <a href="/index" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a>
+            <a href="" class="current">Host</a>
+        </div>
+        <h1>主机信息</h1>
+    </div>
+    <div class="container-fluid"><hr>
+        <div class="row-fluid">
+            <div class="span12">
+                <div class="widget-box">
+                    <div class="widget-title"> <span class="icon"> <i class="icon-info-sign"></i> </span>
+                    <h5>主机信息</h5>
+                    </div>
+                    <div class="widget-content">
+                        <div class="row-fluid">
+                            <div class="span6">
+                                <table class="table table-bordered table-invoice">
+                                    <thead>
+                                        <tr>
+                                            <th>IP</th>
+                                            <th>操作系统</th>
+                                            <th>机房</th>
+                                            <th>机柜</th>
+                                            <th>位置</th>
+                                            <th>状态</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>{{ obj.ip }}</td>
+                                            <td>{{ obj.os_version }}</td>
+                                            <td>{{ obj.host_room }}</td>
+                                            <td>{{ obj.host_cabinet }}</td>
+                                            <td >{{ obj.position }} U</td>
+                                            <td >{{ obj.host_status }}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% end %}
+{% block footer %}
+    <script src="/static/js/layer/layer.js"></script>
+    <script>
+    function goBack()
+    {
+        location.href=document.referrer;
+    }
+    </script>
+{% end %}

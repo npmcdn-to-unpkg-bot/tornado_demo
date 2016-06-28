@@ -1,0 +1,438 @@
+{% extends "../base.html" %}
+{% block content %}
+<div id="content">
+    <div id="content-header">
+        <div id="breadcrumb"> 
+            <a href="/" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a>
+            <a href="" class="current">business</a>
+        </div>
+        <h1>优购物业务</h1>
+    </div>
+    <div class="container-fluid">
+        <hr>
+        <div class="row-fluid">
+            <div class="span12">
+                <div class="widget-box">
+                    <div class="widget-title"> <span class="icon"> <i class="icon-signal"></i> </span>
+                    <h5><a href="" id="title0"></a></h5>
+                    </div>
+                    <div class="widget-content">
+                        <div id="gauge0" class="bars"></div>
+                        <div class="bars" style="height: 150px;">
+                            <div id="bars00" style="width:16.66%; height:100%; float: left;"></div>
+                            <div id="bars01" style="width:16.66%; height:100%; float: left;"></div>
+                            <div id="bars02" style="width:16.66%; height:100%; float: left;"></div>
+                            <div id="bars03" style="width:16.66%; height:100%; float: left;"></div>
+                            <div id="bars04" style="width:16.66%; height:100%; float: left;"></div>
+                            <div id="bars05" style="width:16.66%; height:100%; float: left;"></div>
+                            <div id="bars06" style="width:16.66%; height:100%; float: left;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row-fluid">
+            <div class="span12">
+                <div class="widget-box">
+                    <div class="widget-title"> <span class="icon"> <i class="icon-signal"></i> </span>
+                    <h5><a href="" id="title1"></a></h5>
+                    </div>
+                    <div class="widget-content">
+                        <div id="gauge1" class="bars"></div>
+                        <div class="bars" style="height: 150px;">
+                            <div id="bars10" style="width:16.66%; height:100%; float: left;"></div>
+                            <div id="bars11" style="width:16.66%; height:100%; float: left;"></div>
+                            <div id="bars12" style="width:16.66%; height:100%; float: left;"></div>
+                            <div id="bars13" style="width:16.66%; height:100%; float: left;"></div>
+                            <div id="bars14" style="width:16.66%; height:100%; float: left;"></div>
+                            <div id="bars15" style="width:16.66%; height:100%; float: left;"></div>
+                            <div id="bars16" style="width:16.66%; height:100%; float: left;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="widget-box">
+                    <div class="widget-title"> <span class="icon"> <i class="icon-signal"></i> </span>
+                    <h5><a href="" id="title2"></a></h5>
+                    </div>
+                    <div class="widget-content">
+                        <div id="gauge2" class="bars"></div>
+                        <div class="bars" style="height: 150px;">
+                            <div id="bars20" style="width:16.66%; height:100%; float: left;"></div>
+                            <div id="bars21" style="width:16.66%; height:100%; float: left;"></div>
+                            <div id="bars22" style="width:16.66%; height:100%; float: left;"></div>
+                            <div id="bars23" style="width:16.66%; height:100%; float: left;"></div>
+                            <div id="bars24" style="width:16.66%; height:100%; float: left;"></div>
+                            <div id="bars25" style="width:16.66%; height:100%; float: left;"></div>
+                            <div id="bars26" style="width:16.66%; height:100%; float: left;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="widget-box">
+                    <div class="widget-title"> <span class="icon"> <i class="icon-signal"></i> </span>
+                    <h5><a href="" id="title3"></a></h5>
+                    </div>
+                    <div class="widget-content">
+                        <div id="gauge3" class="bars"></div>
+                        <div class="bars" style="height: 150px;">
+                            <div id="bars30" style="width:16.66%; height:100%; float: left;"></div>
+                            <div id="bars31" style="width:16.66%; height:100%; float: left;"></div>
+                            <div id="bars32" style="width:16.66%; height:100%; float: left;"></div>
+                            <div id="bars33" style="width:16.66%; height:100%; float: left;"></div>
+                            <div id="bars34" style="width:16.66%; height:100%; float: left;"></div>
+                            <div id="bars35" style="width:16.66%; height:100%; float: left;"></div>
+                            <div id="bars36" style="width:16.66%; height:100%; float: left;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% end %}
+{% block footer %}
+<script src="/js/echarts.min.js"></script>
+<script>
+    var labelTop = {
+        normal: {
+            label: {
+                show: true,
+                position: 'center',
+                formatter: '{b}',
+                textStyle: {
+                    baseline: 'bottom'
+                }
+            },
+            labelLine: {
+                show: false
+            }
+        }
+    }
+
+    var option_5 = {
+        tooltip: {
+            formatter: "{a} <br/>{b} : {c}%"
+        },
+        toolbox: {
+            show: true,
+            feature: {
+                mark: {show: true},
+                restore: {show: true},
+                saveAsImage: {show: true}
+            }
+        },
+        series: [
+            {
+                name: '登录',
+                type: 'gauge',
+                center: ['10%', '50%'],
+                splitNumber: 10,       // 分割段数，默认为5
+                axisLine: {            // 坐标轴线
+                    lineStyle: {       // 属性lineStyle控制线条样式
+                        //color: [[0.2, '#C23531'], [0.8, '#63869E'], [1, '#91C7AE']],
+                        color: [[0.95, '#C23531'], [1, '#91C7AE']],
+                    }
+                },
+                min: 0,
+                max: 100,
+                //center : ['50%', '50%'],    // 默认全局居中
+                radius: '85%',
+                detail: {formatter: '{value}%'},
+                data: [{value: 0, name: '30分钟', itemStyle: labelTop}]
+            }, {
+                name: '查询用户基本信息',
+                type: 'gauge',
+                center: ['30%', '50%'],
+                splitNumber: 10,       // 分割段数，默认为5
+                axisLine: {            // 坐标轴线
+                    lineStyle: {       // 属性lineStyle控制线条样式
+                        color: [[0.95, '#C23531'], [1, '#91C7AE']],
+                    }
+                },
+                min: 0,
+                max: 100,
+                radius: '85%',
+                detail: {formatter: '{value}%'},
+                data: [{value: 0, name: '30分钟', itemStyle: labelTop}]
+            }, {
+                name: '进入用户中心',
+                type: 'gauge',
+                center: ['50%', '50%'],
+                splitNumber: 10,       // 分割段数，默认为5
+                axisLine: {            // 坐标轴线
+                    lineStyle: {       // 属性lineStyle控制线条样式
+                        color: [[0.95, '#C23531'], [1, '#91C7AE']],
+                    }
+                },
+                min: 0,
+                max: 100,
+                radius: '85%',
+                detail: {formatter: '{value}%'},
+                data: [{value: 0, name: '30分钟', itemStyle: labelTop}]
+            }, {
+                name: '查询用户',
+                type: 'gauge',
+                center: ['70%', '50%'],
+                splitNumber: 10,       // 分割段数，默认为5
+                axisLine: {            // 坐标轴线
+                    lineStyle: {       // 属性lineStyle控制线条样式
+                        color: [[0.95, '#C23531'], [1, '#91C7AE']],
+                    }
+                },
+                min: 0,
+                max: 100,
+                radius: '85%',
+                detail: {formatter: '{value}%'},
+                data: [{value: 0, name: '30分钟', itemStyle: labelTop}]
+            }, {
+                name: '查询用户积分',
+                type: 'gauge',
+                center: ['90%', '50%'],
+                splitNumber: 10,       // 分割段数，默认为5
+                axisLine: {            // 坐标轴线
+                    lineStyle: {       // 属性lineStyle控制线条样式
+                        color: [[0.95, '#C23531'], [1, '#91C7AE']],
+                    }
+                },
+                min: 0,
+                max: 100,
+                radius: '85%',
+                detail: {formatter: '{value}%'},
+                data: [{value: 0, name: '30分钟', itemStyle: labelTop}]
+            }
+        ]
+    }
+
+
+
+    var option_6 = {
+        tooltip: {
+            formatter: "{a} <br/>{b} : {c}%"
+        },
+        toolbox: {
+            show: true,
+            feature: {
+                mark: {show: true},
+                restore: {show: true},
+                saveAsImage: {show: true}
+            }
+        },
+        series: [
+            {
+                name: '登录',
+                type: 'gauge',
+                center: ['8.3%', '50%'],
+                splitNumber: 10,       // 分割段数，默认为5
+                axisLine: {            // 坐标轴线
+                    lineStyle: {       // 属性lineStyle控制线条样式
+                        //color: [[0.2, '#C23531'], [0.8, '#63869E'], [1, '#91C7AE']],
+                        color: [[0.95, '#C23531'], [1, '#91C7AE']],
+                    }
+                },
+                min: 0,
+                max: 100,
+                radius: '80%',
+                detail: {formatter: '{value}%'},
+                data: [{value: 0, name: '30分钟', itemStyle: labelTop}]
+            }, {
+                name: '查询用户基本信息',
+                type: 'gauge',
+                center: ['24.9%', '50%'],
+                splitNumber: 10,       // 分割段数，默认为5
+                axisLine: {            // 坐标轴线
+                    lineStyle: {       // 属性lineStyle控制线条样式
+                        color: [[0.95, '#C23531'], [1, '#91C7AE']],
+                    }
+                },
+                min: 0,
+                max: 100,
+                radius: '80%',
+                detail: {formatter: '{value}%'},
+                data: [{value: 0, name: '30分钟', itemStyle: labelTop}]
+            }, {
+                name: '进入用户中心',
+                type: 'gauge',
+                center: ['41.5%', '50%'],
+                splitNumber: 10,       // 分割段数，默认为5
+                axisLine: {            // 坐标轴线
+                    lineStyle: {       // 属性lineStyle控制线条样式
+                        color: [[0.95, '#C23531'], [1, '#91C7AE']],
+                    }
+                },
+                min: 0,
+                max: 100,
+                radius: '80%',
+                detail: {formatter: '{value}%'},
+                data: [{value: 0, name: '30分钟', itemStyle: labelTop}]
+            }, {
+                name: '查询用户',
+                type: 'gauge',
+                center: ['58.1%', '50%'],
+                splitNumber: 10,       // 分割段数，默认为5
+                axisLine: {            // 坐标轴线
+                    lineStyle: {       // 属性lineStyle控制线条样式
+                        color: [[0.95, '#C23531'], [1, '#91C7AE']],
+                    }
+                },
+                min: 0,
+                max: 100,
+                radius: '80%',
+                detail: {formatter: '{value}%'},
+                data: [{value: 0, name: '30分钟', itemStyle: labelTop}]
+            }, {
+                name: '查询用户积分',
+                type: 'gauge',
+                center: ['74.7%', '50%'],
+                splitNumber: 10,       // 分割段数，默认为5
+                axisLine: {            // 坐标轴线
+                    lineStyle: {       // 属性lineStyle控制线条样式
+                        color: [[0.95, '#C23531'], [1, '#91C7AE']],
+                    }
+                },
+                min: 0,
+                max: 100,
+                radius: '80%',
+                detail: {formatter: '{value}%'},
+                data: [{value: 0, name: '30分钟', itemStyle: labelTop}]
+            }, {
+                name: '查询用户积分',
+                type: 'gauge',
+                center: ['91.3%', '50%'],
+                splitNumber: 10,       // 分割段数，默认为5
+                axisLine: {            // 坐标轴线
+                    lineStyle: {       // 属性lineStyle控制线条样式
+                        color: [[0.95, '#C23531'], [1, '#91C7AE']],
+                    }
+                },
+                min: 0,
+                max: 100,
+                radius: '80%',
+                detail: {formatter: '{value}%'},
+                data: [{value: 0, name: '30分钟', itemStyle: labelTop}]
+            }
+        ]
+    }
+
+
+    function get_data_bar(title, title_link, data) {
+        options = {
+            title: {
+                text: title,
+                link: title_link,
+                x:'center',
+                y:'top',
+                textStyle: {
+                    fontSize: 18,
+                    fontWeight: 'bolder',
+                    color: '#333'
+                }
+            },
+            tooltip: {
+                trigger: 'axis'
+            },
+            grid: {
+                //left: '0%',
+                //right: '4%',
+                bottom: '3%',
+                top: '30%',
+                containLabel: true
+            },
+            xAxis: [
+                {
+                    type: 'value',
+                    splitLine: {
+                        show: false             //背景格线不显示
+                    }
+                }
+            ],
+            yAxis: [
+                {
+                    type: 'category',
+                    data: ['日', '时'],
+                    splitLine: {
+                        show: false             //背景格线不显示
+                    }
+                }
+            ],
+            series: [
+
+                {
+                    //name: '登录',
+                    type: 'bar',
+                    stack: '可用率',
+                    barWidth: 15,
+                    itemStyle: {
+                        normal: {
+                            color: function (params) {
+                                var colorList = [];
+                                if (data[0] <= 95) {
+                                    colorList[0] = '#C23531';
+                                }
+                                else {
+                                    colorList[0] = '#91C7AE';
+                                }
+                                ;
+                                if (data[1] <= 95) {
+                                    colorList[1] = '#C23531';
+                                }
+                                else {
+                                    colorList[1] = '#91C7AE';
+                                };
+                                //var colorList = ['#C23531', '#91C7AE']
+                                return colorList[params.dataIndex]
+
+                            },
+                            label: {show: true, position: 'insideRight'}
+                        }
+                    },
+                    //itemStyle: {normal: {label: {show: true, position: 'insideRight'}}},
+                    data: data
+                }
+            ]
+        };
+        return options;
+    }
+
+
+
+
+
+
+    function getData(option_) {
+        $.ajax({
+            url: '/api/business_data',
+            dataType: 'json',
+            beforeSend: function () {
+
+            },
+            success: function (res) {
+                $.each(res, function (index, array) {
+                    var options = JSON.parse(JSON.stringify(option_));
+                    var len_arr = array['gauge'].length;
+                    for(var i=0; i<6; i++) {
+                        if (i < len_arr) {
+                            options.series[i].data[0].value = array['gauge'][i];
+                            echarts.init(document.getElementById('bars' + index + i)).setOption(get_data_bar(array['title'][i], array['title_link'][i], array['bar'][i]));
+                        }
+                        else {
+                            options.series.length--;
+                        }
+
+                    }
+                    $("#title"+ index).empty();
+                    $("#title" + index).append(array['item_title']);
+                    $("#title" + index).attr("href", array['item_title_link']);
+                    echarts.init(document.getElementById('gauge' + index)).setOption(options, true);
+                })
+            },
+            error: function () {
+                alert("数据加载失败");
+            }
+        });
+    }
+    getData(option_6);
+    //setInterval("get_data()",60000);//60秒一次执行
+
+</script>
+{% end %}

@@ -1,0 +1,204 @@
+{% extends "../base.html" %}
+{% block content %}
+<div id="content">
+    <div id="content-header">
+        <div id="breadcrumb">
+            <a href="/index" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a>
+            <a href="" class="current">Role</a>
+        </div>
+        <h1>角色列表</h1>
+    </div>
+    <div class="container-fluid">
+        <hr>
+        <div class="row-fluid">
+            <div class="span12">
+                <div class="widget-box">
+                    <div class="widget-title">
+                        <span class="icon"> <i class="icon-hand-right"></i> </span>
+                        <h5>搜索</h5>
+                    </div>
+                    <div class="widget-content nopadding">
+                        <form class="form-horizontal">
+                            {% raw xsrf_form_html() %}
+                            <div class="form-actions">
+                                <div class="form-actions">
+                                    角色名称：<input id="obj__role_name" type="text" style="width: 150px"/>
+                                    <input id="btnSearch" type="button" class="btn btn-success" value="搜 索" onclick="btn_Search()"/>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="widget-box">
+                    <div class="widget-title"><span class="icon"> <i class="icon-hand-right"></i> </span>
+                        <h5>角色管理</h5>
+                    </div>
+                    <div class="widget-content nopadding">
+                        <div id="DataTables_Table_0_wrapper" class="dataTables_wrapper" role="grid">
+                            <table class="table table-bordered data-table dataTable" id="DataTables_Table_0">
+                                <thead>
+                                <tr role="row">
+                                    <th>角色名称</th>
+                                    <th>创建时间</th>
+                                    <th>更新时间</th>
+                                    <th>操作</th>
+                                </tr>
+                                </thead>
+
+                                <tbody role="alert" aria-live="polite" aria-relevant="all" id="js_data">
+
+                                </tbody>
+                            </table>
+                            <div class="fg-toolbar ui-toolbar ui-widget-header ui-corner-bl ui-corner-br ui-helper-clearfix">
+                                <div class="dataTables_paginate fg-buttonset ui-buttonset fg-buttonset-multi ui-buttonset-multi paging_full_numbers" id="DataTables_Table_0_paginate">
+                                    <div class="pagination alternate" style="margin: 0px 0px;" id="js_page">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modal-1" name="modal-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">提示</h4>
+                </div>
+
+                <div class="modal-body">
+                    确实删除该实例吗?
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-white" data-dismiss="modal">取消</button>
+                    <button type="button" class="btn btn-info btn-danger" id="btn_delete" name="btn_delete"
+                            data-whatever="" onclick="del(this)">删除
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+{% end %}
+{% block footer %}
+<script src="/static/js/bootstrap.min.js"></script>
+<script src="/static/js/layer/layer.js"></script>
+<script>
+
+    var page_index = 1;
+    $(function () {
+        GetGrid();
+    })
+    //搜索
+    function btn_Search() {
+        page_index = 1;
+        GetGrid();
+    }
+    //加载表格
+    function GetGrid() {
+        var role_name = $("#obj__role_name").val();
+        var postData = '&role_name=' + role_name + '&page_index=' + page_index + '&_xsrf=' + getCookie("_xsrf");
+        $.ajax({
+            type: 'post',
+            url: '/sso_role/list',
+            dataType: 'json',
+            data: postData,
+            cache: false,
+            async: false,
+            beforeSend: function () {
+                $("#js_data").empty();
+                $("#js_data").append("<td colspan='20'><img src='/images/loading.gif'</td>");
+            },
+            success: function (data) {
+                var li = "";
+                $.each(data['rows'], function (index, array) {
+                    li += "<tr>";
+                    li += "<td>" + array["role_name"] + "</td>";
+                    li += "<td>" + array["create_at"] + "</td>";
+                    li += "<td>" + array["update_at"] + "</td>";
+                    li += "<td><div class='btn-group'>"
+                    li += "<button class='btn btn-info'>操作</button>"
+                    li += "<button data-toggle='dropdown' class='btn btn-info dropdown-toggle'><span class='caret'></span></button>"
+                    li += "<ul class='dropdown-menu'>"
+                    li += "<li><a href='/sso_role/update/" + array["id"] + "'>编辑</a></li>"
+                    li += "<li><a href='" + array["id"] + "' id='role_del'>删除</a></li>"
+                    li += "<li class='divider'></li>"
+                    li += "<li><a href='/sso_role_right/update/" + array["id"] + "'>权限设置</a></li>"
+                    li += "<li><a href='#'>权限预览</a></li>"
+                    li += "</ul>"
+                    li += "</div></td>";
+                    li += "</tr>";
+                });
+                $("#js_data").empty();
+                $("#js_data").append(li);
+
+                $("#js_page").empty();
+                $("#js_page").append(data['page_info']);
+            },
+            error: function (data) {
+                alert("error:" + JSON.stringify(data));
+                Loading(false);
+            }
+        })
+    }
+
+    $(document).on("click", "#role_del", function (e) {
+            e.preventDefault();
+            var host_id = $(this).attr('href');
+            // alert(host_id)
+            $('#btn_delete').attr('data-whatever', host_id);
+            $('#modal-1').modal().on('show.bs.modal', function (event) {
+                var button = $(event.relatedTarget);
+                var recipient = button.data('whatever');
+
+            })
+        })
+
+        function add() {
+            window.location.href = "/sso_role/add";
+        }
+        function del(obj) {
+            var id = $(obj).attr('data-whatever');
+            var postData = '&id=' + id + '&_xsrf=' + getCookie("_xsrf");
+
+            $.ajax({
+                url: '/sso_role/delete/' + id,
+                type: 'post',
+                data: postData,
+                dataType: 'json',
+                beforeSend: function () {
+
+                },
+                success: function (json) {
+                    $('#modal-1').modal('hide')
+                    if (json['msg'] == 'ok') {
+                        layer.msg('删除成功！', {
+                            icon: 1,
+                            time: 2000 //2秒关闭（如果不配置，默认是3秒）
+                        });
+                        window.location.href = '/sso_role/list';
+                    }
+                    else {
+                        layer.msg('删除失败！', {
+                            icon: 1,
+                            time: 2000 //2秒关闭（如果不配置，默认是3秒）
+                        });
+                    }
+                },
+                error: function () {
+                    layer.msg('删除失败！', {
+                        icon: 1,
+                        time: 2000 //2秒关闭（如果不配置，默认是3秒）
+                    });
+                }
+            })
+        }
+</script>
+{% end %}

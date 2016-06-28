@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>运维统一管理平台</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link rel="stylesheet" href="/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/css/bootstrap-responsive.min.css"/>
+    <link rel="stylesheet" href="/css/matrix-style.css"/>
+    <link rel="stylesheet" href="/css/matrix-media.css"/>
+    <link rel="stylesheet" href="/font-awesome/css/font-awesome.css"/>
+    <link rel="stylesheet" href="/css/misc.css"/>
+</head>
+<body>
+
+<!--Header-part-->
+<div id="header">
+    <h1><a href="dashboard.html">Matrix Admin</a></h1>
+</div>
+<!--close-Header-part-->
+
+<!--top-Header-menu-->
+<div id="user-nav" class="navbar navbar-inverse">
+    <ul class="nav">
+        <li class="dropdown" id="profile-messages">
+            <a href="#" onclick="return false;" data-toggle="dropdown" data-target="#profile-messages"
+               class="dropdown-toggle">
+                <i class="icon icon-user"></i>
+                <span class="text"></span>
+            </a>
+        </li>
+        <li><a href="#"><i class="icon icon-share-alt"></i> <span class="text"></span></a>
+        </li>
+    </ul>
+</div>
+<!--sidebar-menu-->
+
+<div id="sidebar"> <a href="#" class="visible-phone"><i class="icon icon-tint"></i>Buttons &amp; icons</a>
+    <ul>
+        <li><a href="/index"><i class="icon icon-home"></i> <span>首页</span></a></li>
+        <li class="submenu"> <a href="#"><i class="icon icon-file"></i> <span>机房管理</span> <span class="label label-important">2</span></a>
+            <ul>
+                <li><a href="/room/list"><i class="icon icon-signal"></i> <span>机房管理</span></a></li>
+                <li><a href="/room/add"><i class="icon icon-signal"></i> <span>机房添加</span></a></li>
+            </ul>
+        </li>
+        <li class="submenu"> <a href="#"><i class="icon icon-file"></i> <span>机柜管理</span> <span class="label label-important">3</span></a>
+            <ul>
+                <li><a href="/cabinet/list"><i class="icon icon-signal"></i> <span>机柜管理</span></a></li>
+                <li><a href="/cabinet/add"><i class="icon icon-signal"></i> <span>机柜添加</span></a></li>
+                <li><a href="/idc" target="_blank"><i class="icon icon-signal"></i> <span>机柜分布</span></a></li>
+            </ul>
+        </li>
+        <li class="submenu"> <a href="#"><i class="icon icon-file"></i> <span>主机管理</span> <span class="label label-important">2</span></a>
+            <ul>
+                <li><a href="/host/list"><i class="icon icon-signal"></i> <span>主机管理</span></a></li>
+                <li><a href="/host/add"><i class="icon icon-signal"></i> <span>主机添加</span></a></li>
+            </ul>
+        </li>
+        <li class="submenu"> <a href="#"><i class="icon icon-file"></i> <span>角色管理</span> <span class="label label-important">2</span></a>
+            <ul>
+                <li><a href="/sso_role/list"><i class="icon icon-signal"></i> <span>角色管理</span></a></li>
+                <li><a href="/sso_role/add"><i class="icon icon-signal"></i> <span>角色添加</span></a></li>
+            </ul>
+        </li>
+        <li class="submenu"> <a href="#"><i class="icon icon-file"></i> <span>用户管理</span> <span class="label label-important">2</span></a>
+            <ul>
+                <li><a href="/sso_user/list"><i class="icon icon-signal"></i> <span>用户管理</span></a></li>
+                <li><a href="/sso_user/add"><i class="icon icon-signal"></i> <span>用户添加</span></a></li>
+            </ul>
+        </li>
+        <li class="submenu"> <a href="#"><i class="icon icon-file"></i> <span>功能管理</span> <span class="label label-important">2</span></a>
+            <ul>
+                <li><a href="/sso_func/list"><i class="icon icon-signal"></i> <span>功能管理</span></a></li>
+                <li><a href="/sso_func/add"><i class="icon icon-signal"></i> <span>功能添加</span></a></li>
+            </ul>
+        </li>
+        <li class="submenu"> <a href="#"><i class="icon icon-file"></i> <span>权限管理</span> <span class="label label-important">2</span></a>
+            <ul>
+                <li><a href="/sso_right/list"><i class="icon icon-signal"></i> <span>权限管理</span></a></li>
+                <li><a href="/sso_right/add"><i class="icon icon-signal"></i> <span>权限添加</span></a></li>
+            </ul>
+        </li>
+
+        <li><a href="/business"><i class="icon icon-signal"></i> <span>业务监控</span></a></li>
+        <li><a href="/system"><i class="icon icon-inbox"></i> <span>系统监控</span></a></li>
+        <li><a href="/log"><i class="icon icon-envelope"></i> <span>日志监控</span></a></li>
+        <li><a href="/email"><i class="icon icon-envelope"></i> <span>邮件列表</span></a></li>
+        <li><a href="/sms"><i class="icon icon-envelope"></i> <span>短信列表</span></a></li>
+    </ul>
+</div>
+{% block content %}
+{% end %}
+<!--Footer-part-->
+<div class="row-fluid">
+    <div id="footer" class="span12"> 2016 &copy; UGO Admin. <a href="http://www.ugoshop.com/" target="_blank" title="优品惠">优品惠</a></div>
+</div>
+<!--end-Footer-part-->
+<script src="/js/jquery-1.8.2.min.js"></script>
+<script src="/js/misc.js"></script>
+<script>
+    $('.submenu > a').click(function(e)
+	{
+		e.preventDefault();
+		var submenu = $(this).siblings('ul');
+		var li = $(this).parents('li');
+		var submenus = $('#sidebar li.submenu ul');
+		var submenus_parents = $('#sidebar li.submenu');
+		if(li.hasClass('open'))
+		{
+			if(($(window).width() > 768) || ($(window).width() < 479)) {
+				submenu.slideUp();
+			} else {
+				submenu.fadeOut(250);
+			}
+			li.removeClass('open');
+		} else
+		{
+			if(($(window).width() > 768) || ($(window).width() < 479)) {
+				submenus.slideUp();
+				submenu.slideDown();
+			} else {
+				submenus.fadeOut(250);
+				submenu.fadeIn(250);
+			}
+			submenus_parents.removeClass('open');
+			li.addClass('open');
+		}
+	});
+    var ul = $('#sidebar > ul');
+
+	$('#sidebar > a').click(function(e)
+	{
+		e.preventDefault();
+		var sidebar = $('#sidebar');
+		if(sidebar.hasClass('open'))
+		{
+			sidebar.removeClass('open');
+			ul.slideUp(250);
+		} else
+		{
+			sidebar.addClass('open');
+			ul.slideDown(250);
+		}
+	});
+    $(function () {
+        var url = window.location;
+        var element = $('#sidebar li.submenu ul li a').filter(function () {
+            return url.href.replace("#", "").indexOf(this.href) == 0;
+        }).parent().addClass('active').parent().parent();
+        if (element.is('li')) {
+            element.addClass('open active');
+        }
+        var element = $('#sidebar li a').filter(function () {
+            return url.href.replace("#", "").indexOf(this.href) == 0;
+        }).parent().addClass('active')
+    });
+</script>
+{% block footer %}
+
+{% end %}
+</body>
+</html>
