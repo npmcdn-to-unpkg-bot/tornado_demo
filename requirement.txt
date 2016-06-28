@@ -1,0 +1,9 @@
+tornado-4.3
+redis-2.10.5
+Tornado_MySQL-0.5.1
+MySQL-python-1.2.5--windows�汾
+python_ldap-2.4.25
+crypto-1.4.1
+pycrypto-2.6--windows�汾
+SQLAlchemy-1.0.13
+docker_py-1.8.1
