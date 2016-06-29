@@ -1,571 +1,975 @@
-2016-06-28 16:14:13,601 - tornado.access - INFO - 200 GET /image/list (127.0.0.1) 10.00ms
-2016-06-28 16:14:14,230 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 354.00ms
-2016-06-28 16:14:14,233 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 2.00ms
-2016-06-28 16:14:14,237 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 1.00ms
-2016-06-28 16:14:14,240 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 2.00ms
-2016-06-28 16:14:14,242 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 1.00ms
-2016-06-28 16:14:14,243 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
-2016-06-28 16:14:14,299 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 1.00ms
-2016-06-28 16:14:14,302 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 2.00ms
-2016-06-28 16:14:14,306 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 3.00ms
-2016-06-28 16:14:14,312 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 4.00ms
-2016-06-28 16:14:14,322 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 4.00ms
-2016-06-28 16:14:14,328 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 4.00ms
-2016-06-28 16:14:14,332 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 2.00ms
-2016-06-28 16:14:14,336 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 3.00ms
-2016-06-28 16:14:14,342 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 1.00ms
-2016-06-28 16:14:14,398 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 1.00ms
-2016-06-28 16:14:14,434 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 1.00ms
-2016-06-28 16:14:14,887 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
-2016-06-28 16:14:14,898 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
-2016-06-28 16:14:14,920 - tornado.access - INFO - 200 POST /api/image/list (127.0.0.1) 26.00ms
-2016-06-28 16:14:14,943 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 2.00ms
-2016-06-28 16:15:52,180 - tornado.general - INFO - D:\my project\tornado_demo\app\view\d_images.py modified; restarting server
-2016-06-28 16:15:54,460 - tornado.general - INFO - D:\my project\tornado_demo\app\view\d_images.py modified; restarting server
-2016-06-28 16:16:03,562 - tornado.general - INFO - D:\my project\tornado_demo\app\view\d_images.py modified; restarting server
-2016-06-28 16:28:24,976 - tornado.access - INFO - 200 GET /image/list (127.0.0.1) 10.00ms
-2016-06-28 16:28:25,573 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 315.00ms
-2016-06-28 16:28:25,582 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 8.00ms
-2016-06-28 16:28:25,582 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 1.00ms
-2016-06-28 16:28:25,585 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 1.00ms
-2016-06-28 16:28:25,588 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 2.00ms
-2016-06-28 16:28:25,589 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 2.00ms
-2016-06-28 16:28:25,595 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 4.00ms
-2016-06-28 16:28:25,601 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 5.00ms
-2016-06-28 16:28:25,602 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 1.00ms
-2016-06-28 16:28:25,605 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 1.00ms
-2016-06-28 16:28:25,609 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 3.00ms
-2016-06-28 16:28:25,611 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 1.00ms
-2016-06-28 16:28:25,627 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 1.00ms
-2016-06-28 16:28:25,648 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 1.00ms
-2016-06-28 16:28:25,661 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 2.00ms
-2016-06-28 16:28:25,762 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 2.00ms
-2016-06-28 16:28:25,815 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
-2016-06-28 16:28:25,826 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
-2016-06-28 16:28:55,855 - tornado.access - INFO - 200 POST /api/image/list (127.0.0.1) 30032.00ms
-2016-06-28 16:28:55,911 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 2.00ms
-2016-06-28 16:29:04,369 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
-2016-06-28 16:29:07,276 - tornado.access - INFO - 200 POST /image/delete/4f9e9961d76d28bc5b064d0f1aa6a755273f56b0d88584d36d8de0e71dc09d9f (127.0.0.1) 2908.00ms
-2016-06-28 16:29:07,404 - tornado.access - INFO - 200 GET /host/list (127.0.0.1) 67.00ms
-2016-06-28 16:29:07,933 - tornado.access - INFO - 200 POST /host/list (127.0.0.1) 9.00ms
-2016-06-28 16:29:21,727 - tornado.access - INFO - 200 GET /image/list (127.0.0.1) 10.00ms
-2016-06-28 16:29:22,207 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
-2016-06-28 16:29:22,229 - tornado.access - INFO - 200 POST /api/image/list (127.0.0.1) 25.00ms
-2016-06-28 16:29:55,171 - tornado.general - INFO - D:\my project\tornado_demo\app\view\d_images.py modified; restarting server
-2016-06-28 16:31:02,950 - tornado.access - INFO - 200 GET /containers/create (127.0.0.1) 5.00ms
-2016-06-28 16:31:05,875 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
-2016-06-28 16:31:05,898 - tornado.access - INFO - 200 POST /api/image/list (127.0.0.1) 28.00ms
-2016-06-28 16:31:06,930 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 6.00ms
-2016-06-28 16:31:07,433 - tornado.application - ERROR - Uncaught exception POST /api/containers/list (127.0.0.1)
-HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/api/containers/list', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '99', 'Accept-Language': 'zh-CN,zh;q=0.8,ko;q=0.6,en;q=0.4', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '127.0.0.1', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1941.0 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://127.0.0.1/containers/list', 'Cookie': 'soc_user_right="2|1:0|10:1467082736|14:soc_user_right|44:NDE2NTdhNWUzY2RjMTFlNjg0MzI3NDI5YWY1NWFjMTA=|707ce43345dd96c5ecd306481a5eed6aaa6f2ef8b931e1aa4e357f9b0be2917c"; _xsrf=2|e6567a4f|b86e23838d662bbd83ec9af5bbab6ce8|1467082876', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'})
+2016-06-29 13:04:34,168 - tornado.access - INFO - 302 GET / (127.0.0.1) 1.00ms
+2016-06-29 13:04:34,250 - tornado.access - INFO - 200 GET /login (127.0.0.1) 68.00ms
+2016-06-29 13:04:35,217 - tornado.access - INFO - 304 GET /Content/Styles/learunui-framework.css (127.0.0.1) 308.00ms
+2016-06-29 13:04:35,236 - tornado.access - INFO - 304 GET /Content/Scripts/learunui-framework.js (127.0.0.1) 18.00ms
+2016-06-29 13:04:35,250 - tornado.access - INFO - 304 GET /Content/Scripts/jquery/jQuery.md5.js (127.0.0.1) 12.00ms
+2016-06-29 13:04:35,252 - tornado.access - INFO - 304 GET /Content/Scripts/cookie/jquery.cookie.js (127.0.0.1) 1.00ms
+2016-06-29 13:04:35,286 - tornado.access - INFO - 304 GET /Content/Styles/learunui-login.css (127.0.0.1) 34.00ms
+2016-06-29 13:04:35,345 - tornado.access - INFO - 304 GET /Content/Scripts/jquery/jquery-1.8.2.min.js (127.0.0.1) 58.00ms
+2016-06-29 13:04:35,348 - tornado.access - INFO - 304 GET /Content/Styles/zzsc.css (127.0.0.1) 1.00ms
+2016-06-29 13:04:36,167 - tornado.access - INFO - 304 GET /Content/images/loginbj.png (127.0.0.1) 52.00ms
+2016-06-29 13:04:36,252 - tornado.access - INFO - 304 GET /Images/favicon.ico (127.0.0.1) 33.00ms
+2016-06-29 13:06:57,782 - tornado.access - INFO - 304 GET /Content/Images/loading1.gif (127.0.0.1) 43.00ms
+2016-06-29 13:07:01,622 - tornado.application - ERROR - Uncaught exception POST /login (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/login', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '278', 'Accept-Language': 'zh-CN,zh;q=0.8,ko;q=0.6,en;q=0.4', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '127.0.0.1', 'Accept': 'text/plain, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1941.0 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://127.0.0.1/login', 'Cookie': '_xsrf=2|d6a9fa80|2f088cbf36afc5b02abb0a328d61495b|1467104804', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'})
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\tornado\web.py", line 1445, in _execute
+    result = yield result
+  File "C:\Python27\lib\site-packages\tornado\gen.py", line 1008, in run
+    value = future.result()
+  File "C:\Python27\lib\site-packages\tornado\concurrent.py", line 232, in result
+    raise_exc_info(self._exc_info)
+  File "C:\Python27\lib\site-packages\tornado\gen.py", line 1017, in run
+    yielded = self.gen.send(value)
+  File "D:\my project\tornado_demo\app\view\v_login.py", line 66, in post
+    base_redis.set_obj(uuid, user, base_redis.cache['userTimeOut'])
+  File "D:\my project\tornado_demo\app\common\base_redis.py", line 69, in set_obj
+    r.setex(key,  json_val, time)
+  File "C:\Python27\lib\site-packages\redis\client.py", line 2014, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "C:\Python27\lib\site-packages\redis\client.py", line 578, in execute_command
+    connection.send_command(*args)
+  File "C:\Python27\lib\site-packages\redis\connection.py", line 563, in send_command
+    self.send_packed_command(self.pack_command(*args))
+  File "C:\Python27\lib\site-packages\redis\connection.py", line 538, in send_packed_command
+    self.connect()
+  File "C:\Python27\lib\site-packages\redis\connection.py", line 442, in connect
+    raise ConnectionError(self._error_message(e))
+ConnectionError: Error 10061 connecting to 127.0.0.1:6379. .
+2016-06-29 13:07:01,627 - tornado.access - ERROR - 500 POST /login (127.0.0.1) 3382.00ms
+2016-06-29 13:10:18,763 - tornado.general - INFO - D:\my project\tornado_demo\app\view\v_login.py modified; restarting server
+2016-06-29 13:11:42,466 - tornado.general - INFO - D:\my project\tornado_demo\app\view\v_login.py modified; restarting server
+2016-06-29 13:11:51,378 - tornado.general - INFO - D:\my project\tornado_demo\app\view\v_login.py modified; restarting server
+2016-06-29 13:12:05,217 - tornado.access - INFO - 200 GET /login (127.0.0.1) 4.00ms
+2016-06-29 13:12:05,563 - tornado.access - INFO - 304 GET /Images/favicon.ico (127.0.0.1) 3.00ms
+2016-06-29 13:12:15,164 - root - ERROR - (<class 'redis.exceptions.ConnectionError'>, ConnectionError('Error 10061 connecting to 127.0.0.1:6379. .',), <traceback object at 0x04E036C0>)
+2016-06-29 13:12:15,167 - tornado.access - INFO - 200 POST /login (127.0.0.1) 2032.00ms
+2016-06-29 13:12:15,460 - tornado.access - INFO - 200 GET /Content/Images/validatebox_warning.png (127.0.0.1) 256.00ms
+2016-06-29 13:14:07,198 - tornado.access - INFO - 200 POST /login (127.0.0.1) 19.00ms
+2016-06-29 13:14:14,236 - tornado.general - WARNING - 403 POST /login (127.0.0.1): '_xsrf' argument missing from POST
+2016-06-29 13:14:14,236 - tornado.access - WARNING - 403 POST /login (127.0.0.1) 1.00ms
+2016-06-29 13:14:25,198 - tornado.access - INFO - 200 GET /login (127.0.0.1) 3.00ms
+2016-06-29 13:14:25,459 - tornado.access - INFO - 304 GET /Images/favicon.ico (127.0.0.1) 3.00ms
+2016-06-29 13:14:34,677 - tornado.access - INFO - 200 POST /login (127.0.0.1) 19.00ms
+2016-06-29 13:15:00,479 - tornado.general - INFO - D:\my project\tornado_demo\app\view\v_login.py modified; restarting server
+2016-06-29 13:15:18,726 - tornado.access - INFO - 200 GET /login (127.0.0.1) 9.00ms
+2016-06-29 13:15:19,572 - tornado.access - INFO - 304 GET /Images/favicon.ico (127.0.0.1) 4.00ms
+2016-06-29 13:15:26,903 - tornado.access - INFO - 200 POST /login (127.0.0.1) 27.00ms
+2016-06-29 13:15:27,940 - tornado.access - INFO - 304 GET /index (127.0.0.1) 25.00ms
+2016-06-29 13:15:28,364 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 340.00ms
+2016-06-29 13:15:28,375 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 10.00ms
+2016-06-29 13:15:34,180 - tornado.access - INFO - 200 GET /image/list (127.0.0.1) 6.00ms
+2016-06-29 13:15:34,572 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 13:15:35,302 - tornado.access - INFO - 200 POST /image/list (127.0.0.1) 736.00ms
+2016-06-29 13:16:17,622 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 42.00ms
+2016-06-29 13:16:17,851 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 13:16:18,125 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 276.00ms
+2016-06-29 13:16:21,576 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 6.00ms
+2016-06-29 13:16:21,759 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 13:16:21,763 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 7.00ms
+2016-06-29 13:16:23,551 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 6.00ms
+2016-06-29 13:16:23,683 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 13:16:23,687 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 7.00ms
+2016-06-29 13:16:24,789 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 6.00ms
+2016-06-29 13:16:24,927 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 13:16:24,930 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 6.00ms
+2016-06-29 13:19:17,233 - tornado.general - INFO - D:\my project\tornado_demo\app\common\base_docker.py modified; restarting server
+2016-06-29 13:23:48,568 - tornado.general - INFO - D:\my project\tornado_demo\app\common\base_docker.py modified; restarting server
+2016-06-29 13:24:01,377 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 10.00ms
+2016-06-29 13:24:01,898 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 325.00ms
+2016-06-29 13:24:01,914 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 13.00ms
+2016-06-29 13:24:01,927 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 13.00ms
+2016-06-29 13:24:01,944 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 17.00ms
+2016-06-29 13:24:01,947 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
+2016-06-29 13:24:01,950 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 2.00ms
+2016-06-29 13:24:01,997 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 10.00ms
+2016-06-29 13:24:02,012 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 11.00ms
+2016-06-29 13:24:02,013 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 1.00ms
+2016-06-29 13:24:02,016 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 2.00ms
+2016-06-29 13:24:02,019 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 2.00ms
+2016-06-29 13:24:02,026 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 4.00ms
+2016-06-29 13:24:02,029 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 1.00ms
+2016-06-29 13:24:02,032 - tornado.access - INFO - 304 GET /font-awesome/font/fontawesome-webfont.woff (127.0.0.1) 2.00ms
+2016-06-29 13:24:02,062 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 30.00ms
+2016-06-29 13:24:02,079 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 16.00ms
+2016-06-29 13:24:02,157 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 16.00ms
+2016-06-29 13:24:02,239 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 11.00ms
+2016-06-29 13:24:02,243 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 13:24:02,246 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 7.00ms
+2016-06-29 13:24:02,263 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 1.00ms
+2016-06-29 13:28:45,443 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 7.00ms
+2016-06-29 13:28:45,612 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 2.00ms
+2016-06-29 13:28:45,624 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 1.00ms
+2016-06-29 13:28:45,634 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 1.00ms
+2016-06-29 13:28:45,642 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 1.00ms
+2016-06-29 13:28:45,653 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 1.00ms
+2016-06-29 13:28:45,663 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
+2016-06-29 13:28:45,671 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 1.00ms
+2016-06-29 13:28:45,680 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 1.00ms
+2016-06-29 13:28:45,690 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 1.00ms
+2016-06-29 13:28:45,703 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 2.00ms
+2016-06-29 13:28:45,713 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 2.00ms
+2016-06-29 13:28:45,723 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 1.00ms
+2016-06-29 13:28:45,762 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 1.00ms
+2016-06-29 13:28:45,776 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 2.00ms
+2016-06-29 13:28:45,788 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 2.00ms
+2016-06-29 13:28:45,888 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 1.00ms
+2016-06-29 13:28:45,956 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
+2016-06-29 13:28:45,964 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 13:28:45,969 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 7.00ms
+2016-06-29 13:28:45,986 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 1.00ms
+2016-06-29 13:29:18,483 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 8.00ms
+2016-06-29 13:29:18,642 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 2.00ms
+2016-06-29 13:29:18,654 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 1.00ms
+2016-06-29 13:29:18,665 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 2.00ms
+2016-06-29 13:29:18,676 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 1.00ms
+2016-06-29 13:29:18,684 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 1.00ms
+2016-06-29 13:29:18,696 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 2.00ms
+2016-06-29 13:29:18,704 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 1.00ms
+2016-06-29 13:29:18,717 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 2.00ms
+2016-06-29 13:29:18,729 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 1.00ms
+2016-06-29 13:29:18,737 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 1.00ms
+2016-06-29 13:29:18,747 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 1.00ms
+2016-06-29 13:29:18,757 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 1.00ms
+2016-06-29 13:29:18,795 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 1.00ms
+2016-06-29 13:29:18,823 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 2.00ms
+2016-06-29 13:29:18,877 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 1.00ms
+2016-06-29 13:29:18,914 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 1.00ms
+2016-06-29 13:29:18,977 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
+2016-06-29 13:29:18,986 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 13:29:18,990 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 6.00ms
+2016-06-29 13:29:19,010 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 2.00ms
+2016-06-29 13:33:24,476 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 7.00ms
+2016-06-29 13:33:24,648 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 2.00ms
+2016-06-29 13:33:24,657 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 1.00ms
+2016-06-29 13:33:24,668 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 2.00ms
+2016-06-29 13:33:24,680 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 2.00ms
+2016-06-29 13:33:24,690 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 2.00ms
+2016-06-29 13:33:24,700 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
+2016-06-29 13:33:24,710 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 1.00ms
+2016-06-29 13:33:24,723 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 2.00ms
+2016-06-29 13:33:24,730 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 2.00ms
+2016-06-29 13:33:24,740 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 1.00ms
+2016-06-29 13:33:24,750 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 2.00ms
+2016-06-29 13:33:24,759 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 1.00ms
+2016-06-29 13:33:24,782 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 0.00ms
+2016-06-29 13:33:24,811 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 1.00ms
+2016-06-29 13:33:24,819 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 1.00ms
+2016-06-29 13:33:24,921 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 2.00ms
+2016-06-29 13:33:24,993 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
+2016-06-29 13:33:25,003 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 13:33:25,006 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 8.00ms
+2016-06-29 13:33:25,023 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 1.00ms
+2016-06-29 13:33:26,476 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 6.00ms
+2016-06-29 13:33:26,549 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 2.00ms
+2016-06-29 13:33:26,576 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 2.00ms
+2016-06-29 13:33:26,582 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 4.00ms
+2016-06-29 13:33:26,585 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 2.00ms
+2016-06-29 13:33:26,595 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 2.00ms
+2016-06-29 13:33:26,608 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
+2016-06-29 13:33:26,631 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 2.00ms
+2016-06-29 13:33:26,645 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 3.00ms
+2016-06-29 13:33:26,658 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 2.00ms
+2016-06-29 13:33:26,671 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 3.00ms
+2016-06-29 13:33:26,683 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 2.00ms
+2016-06-29 13:33:26,698 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 2.00ms
+2016-06-29 13:33:26,710 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 2.00ms
+2016-06-29 13:33:26,720 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 1.00ms
+2016-06-29 13:33:26,730 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 1.00ms
+2016-06-29 13:33:26,832 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 1.00ms
+2016-06-29 13:33:26,907 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 2.00ms
+2016-06-29 13:33:26,917 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 13:33:26,921 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 8.00ms
+2016-06-29 13:33:26,936 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 1.00ms
+2016-06-29 13:33:28,020 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 6.00ms
+2016-06-29 13:33:28,089 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 2.00ms
+2016-06-29 13:33:28,108 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 2.00ms
+2016-06-29 13:33:28,121 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 2.00ms
+2016-06-29 13:33:28,138 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 1.00ms
+2016-06-29 13:33:28,153 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 2.00ms
+2016-06-29 13:33:28,174 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 2.00ms
+2016-06-29 13:33:28,187 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 2.00ms
+2016-06-29 13:33:28,197 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 1.00ms
+2016-06-29 13:33:28,207 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 2.00ms
+2016-06-29 13:33:28,217 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 2.00ms
+2016-06-29 13:33:28,226 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 1.00ms
+2016-06-29 13:33:28,236 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 1.00ms
+2016-06-29 13:33:28,289 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 2.00ms
+2016-06-29 13:33:28,302 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 2.00ms
+2016-06-29 13:33:28,315 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 2.00ms
+2016-06-29 13:33:28,391 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 2.00ms
+2016-06-29 13:33:28,457 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
+2016-06-29 13:33:28,466 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 13:33:28,470 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 7.00ms
+2016-06-29 13:33:28,489 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 1.00ms
+2016-06-29 13:34:08,644 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 7.00ms
+2016-06-29 13:34:09,151 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 13:34:09,157 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 7.00ms
+2016-06-29 13:35:06,242 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 8.00ms
+2016-06-29 13:35:06,450 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 2.00ms
+2016-06-29 13:35:06,460 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 1.00ms
+2016-06-29 13:35:06,469 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 2.00ms
+2016-06-29 13:35:06,479 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 1.00ms
+2016-06-29 13:35:06,486 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 1.00ms
+2016-06-29 13:35:06,496 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 2.00ms
+2016-06-29 13:35:06,505 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 2.00ms
+2016-06-29 13:35:06,515 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 2.00ms
+2016-06-29 13:35:06,526 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 1.00ms
+2016-06-29 13:35:06,536 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 2.00ms
+2016-06-29 13:35:06,546 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 2.00ms
+2016-06-29 13:35:06,555 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 1.00ms
+2016-06-29 13:35:06,585 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 3.00ms
+2016-06-29 13:35:06,618 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 2.00ms
+2016-06-29 13:35:06,630 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 2.00ms
+2016-06-29 13:35:06,716 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 1.00ms
+2016-06-29 13:35:06,783 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 2.00ms
+2016-06-29 13:35:06,793 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 13:35:06,796 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 6.00ms
+2016-06-29 13:35:06,819 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 1.00ms
+2016-06-29 13:35:08,460 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 7.00ms
+2016-06-29 13:35:08,690 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 2.00ms
+2016-06-29 13:35:08,700 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 1.00ms
+2016-06-29 13:35:08,710 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 2.00ms
+2016-06-29 13:35:08,720 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 1.00ms
+2016-06-29 13:35:08,732 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 1.00ms
+2016-06-29 13:35:08,744 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
+2016-06-29 13:35:08,756 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 2.00ms
+2016-06-29 13:35:08,766 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 2.00ms
+2016-06-29 13:35:08,778 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 2.00ms
+2016-06-29 13:35:08,788 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 1.00ms
+2016-06-29 13:35:08,801 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 1.00ms
+2016-06-29 13:35:08,812 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 3.00ms
+2016-06-29 13:35:08,884 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 1.00ms
+2016-06-29 13:35:08,913 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 2.00ms
+2016-06-29 13:35:08,926 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 2.00ms
+2016-06-29 13:35:09,026 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 1.00ms
+2016-06-29 13:35:09,091 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
+2016-06-29 13:35:09,102 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 13:35:09,105 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 6.00ms
+2016-06-29 13:35:09,128 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 1.00ms
+2016-06-29 13:37:09,470 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 8.00ms
+2016-06-29 13:37:09,680 - tornado.access - INFO - 200 GET /css/bootstrap.min.css (127.0.0.1) 3.00ms
+2016-06-29 13:37:09,688 - tornado.access - INFO - 200 GET /css/bootstrap-responsive.min.css (127.0.0.1) 2.00ms
+2016-06-29 13:37:09,697 - tornado.access - INFO - 200 GET /css/matrix-style.css (127.0.0.1) 2.00ms
+2016-06-29 13:37:09,707 - tornado.access - INFO - 200 GET /css/matrix-media.css (127.0.0.1) 2.00ms
+2016-06-29 13:37:09,717 - tornado.access - INFO - 200 GET /font-awesome/css/font-awesome.css (127.0.0.1) 3.00ms
+2016-06-29 13:37:09,726 - tornado.access - INFO - 200 GET /css/misc.css (127.0.0.1) 1.00ms
+2016-06-29 13:37:09,740 - tornado.access - INFO - 200 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 2.00ms
+2016-06-29 13:37:09,753 - tornado.access - INFO - 200 GET /js/jquery-1.8.2.min.js (127.0.0.1) 4.00ms
+2016-06-29 13:37:09,763 - tornado.access - INFO - 200 GET /js/jquery.validate.js (127.0.0.1) 2.00ms
+2016-06-29 13:37:09,775 - tornado.access - INFO - 200 GET /js/misc.js (127.0.0.1) 1.00ms
+2016-06-29 13:37:09,786 - tornado.access - INFO - 200 GET /static/js/bootstrap.min.js (127.0.0.1) 4.00ms
+2016-06-29 13:37:09,795 - tornado.access - INFO - 200 GET /static/js/layer/layer.js (127.0.0.1) 1.00ms
+2016-06-29 13:37:09,829 - tornado.access - INFO - 200 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 2.00ms
+2016-06-29 13:37:09,880 - tornado.access - INFO - 200 GET /img/logo.png (127.0.0.1) 2.00ms
+2016-06-29 13:37:09,882 - tornado.access - INFO - 200 GET /font-awesome/font/fontawesome-webfont.woff (127.0.0.1) 3.00ms
+2016-06-29 13:37:09,888 - tornado.access - INFO - 200 GET /img/breadcrumb.png (127.0.0.1) 1.00ms
+2016-06-29 13:37:09,976 - tornado.access - INFO - 200 GET /static/js/layer/skin/layer.css (127.0.0.1) 2.00ms
+2016-06-29 13:37:10,055 - tornado.access - INFO - 200 GET /images/loading.gif (127.0.0.1) 1.00ms
+2016-06-29 13:37:10,063 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 13:37:10,069 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 9.00ms
+2016-06-29 13:37:10,131 - tornado.access - INFO - 200 GET /img/menu-active.png (127.0.0.1) 1.00ms
+2016-06-29 13:37:10,176 - tornado.access - INFO - 200 GET /images/favicon.ico (127.0.0.1) 14.00ms
+2016-06-29 13:38:12,505 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 7.00ms
+2016-06-29 13:38:12,710 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 1.00ms
+2016-06-29 13:38:12,723 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 1.00ms
+2016-06-29 13:38:12,733 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 1.00ms
+2016-06-29 13:38:12,743 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 1.00ms
+2016-06-29 13:38:12,753 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 2.00ms
+2016-06-29 13:38:12,767 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
+2016-06-29 13:38:12,779 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 2.00ms
+2016-06-29 13:38:12,789 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 2.00ms
+2016-06-29 13:38:12,799 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 2.00ms
+2016-06-29 13:38:12,808 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 2.00ms
+2016-06-29 13:38:12,819 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 2.00ms
+2016-06-29 13:38:12,828 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 1.00ms
+2016-06-29 13:38:12,890 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 1.00ms
+2016-06-29 13:38:12,903 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 1.00ms
+2016-06-29 13:38:12,913 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 1.00ms
+2016-06-29 13:38:13,006 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 1.00ms
+2016-06-29 13:38:13,085 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 2.00ms
+2016-06-29 13:38:13,095 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 13:38:13,099 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 7.00ms
+2016-06-29 13:38:13,122 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 2.00ms
+2016-06-29 13:38:22,584 - tornado.access - INFO - 200 GET /sso_role/list (127.0.0.1) 80.00ms
+2016-06-29 13:38:22,875 - tornado.access - INFO - 200 POST /sso_role/list (127.0.0.1) 59.00ms
+2016-06-29 13:40:46,638 - tornado.access - INFO - 200 GET /sso_role/list (127.0.0.1) 7.00ms
+2016-06-29 13:40:46,882 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 2.00ms
+2016-06-29 13:40:46,884 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 2.00ms
+2016-06-29 13:40:46,887 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 1.00ms
+2016-06-29 13:40:46,888 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 2.00ms
+2016-06-29 13:40:46,891 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 2.00ms
+2016-06-29 13:40:46,895 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
+2016-06-29 13:40:46,905 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 2.00ms
+2016-06-29 13:40:46,917 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 1.00ms
+2016-06-29 13:40:46,926 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 1.00ms
+2016-06-29 13:40:46,936 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 2.00ms
+2016-06-29 13:40:46,944 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 1.00ms
+2016-06-29 13:40:47,022 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 1.00ms
+2016-06-29 13:40:47,030 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 2.00ms
+2016-06-29 13:40:47,065 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 1.00ms
+2016-06-29 13:40:47,125 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
+2016-06-29 13:40:47,141 - tornado.access - INFO - 200 POST /sso_role/list (127.0.0.1) 7.00ms
+2016-06-29 13:40:47,168 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 2.00ms
+2016-06-29 13:40:51,375 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 6.00ms
+2016-06-29 13:40:51,540 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 2.00ms
+2016-06-29 13:40:51,551 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 1.00ms
+2016-06-29 13:40:51,559 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 1.00ms
+2016-06-29 13:40:51,569 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 1.00ms
+2016-06-29 13:40:51,578 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 1.00ms
+2016-06-29 13:40:51,588 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
+2016-06-29 13:40:51,599 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 1.00ms
+2016-06-29 13:40:51,609 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 1.00ms
+2016-06-29 13:40:51,621 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 1.00ms
+2016-06-29 13:40:51,630 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 1.00ms
+2016-06-29 13:40:51,641 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 1.00ms
+2016-06-29 13:40:51,651 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 1.00ms
+2016-06-29 13:40:51,680 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 1.00ms
+2016-06-29 13:40:51,816 - tornado.access - INFO - 304 GET /font-awesome/font/fontawesome-webfont.woff (127.0.0.1) 2.00ms
+2016-06-29 13:40:51,828 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 1.00ms
+2016-06-29 13:40:51,868 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 1.00ms
+2016-06-29 13:40:51,897 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 2.00ms
+2016-06-29 13:40:51,969 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
+2016-06-29 13:40:51,979 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 13:40:51,982 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 6.00ms
+2016-06-29 13:40:52,000 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 2.00ms
+2016-06-29 13:42:29,964 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 6.00ms
+2016-06-29 13:42:30,105 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 1.00ms
+2016-06-29 13:42:30,117 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 1.00ms
+2016-06-29 13:42:30,128 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 1.00ms
+2016-06-29 13:42:30,141 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 2.00ms
+2016-06-29 13:42:30,153 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 1.00ms
+2016-06-29 13:42:30,164 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 2.00ms
+2016-06-29 13:42:30,211 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 2.00ms
+2016-06-29 13:42:30,223 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 2.00ms
+2016-06-29 13:42:30,232 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 1.00ms
+2016-06-29 13:42:30,243 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 2.00ms
+2016-06-29 13:42:30,255 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 2.00ms
+2016-06-29 13:42:30,263 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 2.00ms
+2016-06-29 13:42:30,272 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 1.00ms
+2016-06-29 13:42:30,375 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 1.00ms
+2016-06-29 13:42:30,377 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 1.00ms
+2016-06-29 13:42:30,456 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 1.00ms
+2016-06-29 13:42:30,523 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
+2016-06-29 13:42:30,533 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 13:42:30,538 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 7.00ms
+2016-06-29 13:42:30,558 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 1.00ms
+2016-06-29 13:44:51,877 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 7.00ms
+2016-06-29 13:44:52,073 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 1.00ms
+2016-06-29 13:44:52,082 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 1.00ms
+2016-06-29 13:44:52,092 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 1.00ms
+2016-06-29 13:44:52,101 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 1.00ms
+2016-06-29 13:44:52,115 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 2.00ms
+2016-06-29 13:44:52,125 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
+2016-06-29 13:44:52,137 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 2.00ms
+2016-06-29 13:44:52,148 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 2.00ms
+2016-06-29 13:44:52,158 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 2.00ms
+2016-06-29 13:44:52,167 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 1.00ms
+2016-06-29 13:44:52,178 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 1.00ms
+2016-06-29 13:44:52,190 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 1.00ms
+2016-06-29 13:44:52,217 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 1.00ms
+2016-06-29 13:44:52,239 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 1.00ms
+2016-06-29 13:44:52,250 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 2.00ms
+2016-06-29 13:44:52,378 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 0.00ms
+2016-06-29 13:44:52,438 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
+2016-06-29 13:44:52,447 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 13:44:52,451 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 7.00ms
+2016-06-29 13:44:52,470 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 1.00ms
+2016-06-29 13:44:55,085 - tornado.access - INFO - 200 GET /containers/start/03c0301cdeb2c884e817e9ed2c39e30e753c02ddee7c12dbe93bc7033e432786 (127.0.0.1) 4.00ms
+2016-06-29 13:45:56,674 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 8.00ms
+2016-06-29 13:45:56,904 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 13:45:56,908 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 7.00ms
+2016-06-29 13:45:59,510 - tornado.access - INFO - 200 GET /containers/6be90567b86e37d463012a0c867f398e7412430febf1d58cf574f36663f3afe6 (127.0.0.1) 5.00ms
+2016-06-29 13:46:03,885 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 8.00ms
+2016-06-29 13:46:04,105 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 13:46:04,108 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 6.00ms
+2016-06-29 13:46:05,328 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 6.00ms
+2016-06-29 13:46:05,532 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 2.00ms
+2016-06-29 13:46:05,545 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 2.00ms
+2016-06-29 13:46:05,555 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 2.00ms
+2016-06-29 13:46:05,563 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 1.00ms
+2016-06-29 13:46:05,573 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 1.00ms
+2016-06-29 13:46:05,585 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 2.00ms
+2016-06-29 13:46:05,594 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 2.00ms
+2016-06-29 13:46:05,604 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 2.00ms
+2016-06-29 13:46:05,612 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 1.00ms
+2016-06-29 13:46:05,627 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 1.00ms
+2016-06-29 13:46:05,637 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 1.00ms
+2016-06-29 13:46:05,647 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 1.00ms
+2016-06-29 13:46:05,671 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 1.00ms
+2016-06-29 13:46:05,700 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 2.00ms
+2016-06-29 13:46:05,711 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 1.00ms
+2016-06-29 13:46:05,805 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 2.00ms
+2016-06-29 13:46:05,878 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
+2016-06-29 13:46:05,904 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 13:46:05,907 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 23.00ms
+2016-06-29 13:46:05,927 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 1.00ms
+2016-06-29 13:46:07,756 - tornado.access - INFO - 304 GET /containers/6be90567b86e37d463012a0c867f398e7412430febf1d58cf574f36663f3afe6 (127.0.0.1) 5.00ms
+2016-06-29 13:46:09,880 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 7.00ms
+2016-06-29 13:46:10,098 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 13:46:10,101 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 6.00ms
+2016-06-29 13:48:23,378 - tornado.access - INFO - 200 GET /sso_role/list (127.0.0.1) 7.00ms
+2016-06-29 13:48:23,601 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 3.00ms
+2016-06-29 13:48:23,608 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 2.00ms
+2016-06-29 13:48:23,618 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 2.00ms
+2016-06-29 13:48:23,630 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 1.00ms
+2016-06-29 13:48:23,642 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 2.00ms
+2016-06-29 13:48:23,653 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
+2016-06-29 13:48:23,664 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 1.00ms
+2016-06-29 13:48:23,673 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 1.00ms
+2016-06-29 13:48:23,684 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 1.00ms
+2016-06-29 13:48:23,694 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 1.00ms
+2016-06-29 13:48:23,701 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 1.00ms
+2016-06-29 13:48:23,779 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 1.00ms
+2016-06-29 13:48:23,789 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 1.00ms
+2016-06-29 13:48:23,825 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 1.00ms
+2016-06-29 13:48:23,894 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
+2016-06-29 13:48:23,907 - tornado.access - INFO - 200 POST /sso_role/list (127.0.0.1) 6.00ms
+2016-06-29 13:48:23,927 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 2.00ms
+2016-06-29 13:48:47,095 - tornado.access - INFO - 200 GET /sso_role_right/update/2 (127.0.0.1) 45.00ms
+2016-06-29 14:00:30,667 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 7.00ms
+2016-06-29 14:00:30,890 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 2.00ms
+2016-06-29 14:00:30,897 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 2.00ms
+2016-06-29 14:00:30,908 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 2.00ms
+2016-06-29 14:00:30,917 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 1.00ms
+2016-06-29 14:00:30,928 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 2.00ms
+2016-06-29 14:00:30,940 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 2.00ms
+2016-06-29 14:00:30,947 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 1.00ms
+2016-06-29 14:00:30,960 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 1.00ms
+2016-06-29 14:00:30,971 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 1.00ms
+2016-06-29 14:00:30,983 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 1.00ms
+2016-06-29 14:00:30,993 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 2.00ms
+2016-06-29 14:00:31,002 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 1.00ms
+2016-06-29 14:00:31,029 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 1.00ms
+2016-06-29 14:00:31,061 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 2.00ms
+2016-06-29 14:00:31,072 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 2.00ms
+2016-06-29 14:00:31,167 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 1.00ms
+2016-06-29 14:00:31,236 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
+2016-06-29 14:00:31,244 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 14:00:31,249 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 6.00ms
+2016-06-29 14:00:31,269 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 2.00ms
+2016-06-29 14:00:34,976 - tornado.access - INFO - 200 GET /static/js/layer/skin/default/icon.png (127.0.0.1) 42.00ms
+2016-06-29 14:00:34,982 - tornado.access - INFO - 200 GET /containers/9bb15ef6a0996ab98b9f4c3442c0a9731eb37e82f06c430610e5afe69dc47e5b (127.0.0.1) 4.00ms
+2016-06-29 14:00:42,247 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 7.00ms
+2016-06-29 14:00:42,509 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 14:00:42,515 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 8.00ms
+2016-06-29 14:03:28,111 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 8.00ms
+2016-06-29 14:03:28,319 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 1.00ms
+2016-06-29 14:03:28,328 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 1.00ms
+2016-06-29 14:03:28,384 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 1.00ms
+2016-06-29 14:03:28,387 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 2.00ms
+2016-06-29 14:03:28,388 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 1.00ms
+2016-06-29 14:03:28,391 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 1.00ms
+2016-06-29 14:03:28,394 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 2.00ms
+2016-06-29 14:03:28,400 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 1.00ms
+2016-06-29 14:03:28,413 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 2.00ms
+2016-06-29 14:03:28,421 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 1.00ms
+2016-06-29 14:03:28,433 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 1.00ms
+2016-06-29 14:03:28,441 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 1.00ms
+2016-06-29 14:03:28,578 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 1.00ms
+2016-06-29 14:03:28,588 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 2.00ms
+2016-06-29 14:03:28,596 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 1.00ms
+2016-06-29 14:03:28,661 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 1.00ms
+2016-06-29 14:03:28,726 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
+2016-06-29 14:03:28,734 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 14:03:28,739 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 7.00ms
+2016-06-29 14:03:28,760 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 2.00ms
+2016-06-29 14:03:31,226 - tornado.access - WARNING - 405 POST /containers/start/containers_start (127.0.0.1) 1.00ms
+2016-06-29 14:27:17,305 - tornado.general - INFO - D:\my project\tornado_demo\app\common\base_docker.py modified; restarting server
+2016-06-29 14:27:52,144 - tornado.general - INFO - D:\my project\tornado_demo\app\common\base_docker.py modified; restarting server
+2016-06-29 14:28:21,542 - tornado.general - INFO - D:\my project\tornado_demo\app\common\base_docker.py modified; restarting server
+2016-06-29 14:29:40,806 - tornado.general - INFO - D:\my project\tornado_demo\app\common\base_docker.py modified; restarting server
+2016-06-29 14:30:50,184 - tornado.general - INFO - D:\my project\tornado_demo\app\common\base_docker.py modified; restarting server
+2016-06-29 14:48:45,910 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 11.00ms
+2016-06-29 14:48:46,411 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 284.00ms
+2016-06-29 14:48:46,415 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 3.00ms
+2016-06-29 14:48:46,418 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 2.00ms
+2016-06-29 14:48:46,421 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
+2016-06-29 14:48:46,426 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 3.00ms
+2016-06-29 14:48:46,427 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 1.00ms
+2016-06-29 14:48:46,430 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 1.00ms
+2016-06-29 14:48:46,430 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 1.00ms
+2016-06-29 14:48:46,433 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 1.00ms
+2016-06-29 14:48:46,477 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 1.00ms
+2016-06-29 14:48:46,480 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 1.00ms
+2016-06-29 14:48:46,483 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 1.00ms
+2016-06-29 14:48:46,505 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 1.00ms
+2016-06-29 14:48:46,538 - tornado.access - INFO - 304 GET /font-awesome/font/fontawesome-webfont.woff (127.0.0.1) 2.00ms
+2016-06-29 14:48:46,549 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 2.00ms
+2016-06-29 14:48:46,558 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 1.00ms
+2016-06-29 14:48:46,655 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 2.00ms
+2016-06-29 14:48:46,740 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
+2016-06-29 14:48:46,750 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 14:48:46,756 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 11.00ms
+2016-06-29 14:48:46,802 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 1.00ms
+2016-06-29 14:48:51,460 - tornado.application - ERROR - Uncaught exception POST /containers/start/containers_start (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/containers/start/containers_start', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '81', 'Accept-Language': 'zh-CN,zh;q=0.8,ko;q=0.6,en;q=0.4', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '127.0.0.1', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1941.0 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://127.0.0.1/containers/list', 'Cookie': 'soc_user_right="2|1:0|10:1467177326|14:soc_user_right|44:N2Q2ZTBkNWUzZGI4MTFlNjgwN2I3NDI5YWY1NWFjMTA=|2743696bcd3e4e56621387783fd78784d63ab067230fe5cbc4728f47ca87fb7a"; _xsrf=2|cb13193b|1069406c794e627d37642dcb3ea39898|1467177334', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'})
 Traceback (most recent call last):
   File "C:\Python27\lib\site-packages\tornado\web.py", line 1443, in _execute
     result = method(*self.path_args, **self.path_kwargs)
-  File "D:\my project\tornado_demo\app\view\d_containers.py", line 22, in post
-    containers = base_docker.Docker('192.168.128.128').containers()
-AttributeError: 'module' object has no attribute 'Docker'
-2016-06-28 16:31:07,434 - tornado.access - ERROR - 500 POST /api/containers/list (127.0.0.1) 4.00ms
-2016-06-28 16:31:48,164 - tornado.general - INFO - D:\my project\tornado_demo\app\view\d_images.py modified; restarting server
-2016-06-28 16:32:49,269 - tornado.access - INFO - 200 GET /image/list (127.0.0.1) 10.00ms
-2016-06-28 16:32:49,845 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 322.00ms
-2016-06-28 16:32:49,848 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 1.00ms
-2016-06-28 16:32:49,849 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
-2016-06-28 16:32:49,851 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 1.00ms
-2016-06-28 16:32:49,852 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 1.00ms
-2016-06-28 16:32:49,855 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 2.00ms
-2016-06-28 16:32:49,862 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 6.00ms
-2016-06-28 16:32:49,865 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 2.00ms
-2016-06-28 16:32:49,867 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 1.00ms
-2016-06-28 16:32:49,869 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 2.00ms
-2016-06-28 16:32:49,872 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 1.00ms
-2016-06-28 16:32:49,878 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 4.00ms
-2016-06-28 16:32:49,953 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 2.00ms
-2016-06-28 16:32:49,963 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 1.00ms
-2016-06-28 16:32:49,973 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 1.00ms
-2016-06-28 16:32:50,032 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 2.00ms
-2016-06-28 16:32:50,095 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
-2016-06-28 16:32:50,108 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
-2016-06-28 16:32:50,131 - tornado.access - INFO - 200 POST /image/list (127.0.0.1) 27.00ms
-2016-06-28 16:32:50,153 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 1.00ms
-2016-06-28 16:34:10,875 - tornado.access - INFO - 200 GET /image/list (127.0.0.1) 8.00ms
-2016-06-28 16:34:11,196 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 2.00ms
-2016-06-28 16:34:11,207 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 2.00ms
-2016-06-28 16:34:11,216 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 1.00ms
-2016-06-28 16:34:11,226 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 1.00ms
-2016-06-28 16:34:11,234 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 1.00ms
-2016-06-28 16:34:11,246 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
-2016-06-28 16:34:11,256 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 1.00ms
-2016-06-28 16:34:11,269 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 2.00ms
-2016-06-28 16:34:11,279 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 2.00ms
-2016-06-28 16:34:11,290 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 2.00ms
-2016-06-28 16:34:11,301 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 1.00ms
-2016-06-28 16:34:11,311 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 1.00ms
-2016-06-28 16:34:11,460 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 1.00ms
-2016-06-28 16:34:11,463 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 1.00ms
-2016-06-28 16:34:11,464 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 1.00ms
-2016-06-28 16:34:11,553 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 2.00ms
-2016-06-28 16:34:11,601 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
-2016-06-28 16:34:11,611 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
-2016-06-28 16:34:11,631 - tornado.access - INFO - 200 POST /image/list (127.0.0.1) 24.00ms
-2016-06-28 16:34:11,651 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 1.00ms
-2016-06-28 16:35:12,415 - tornado.general - INFO - D:\my project\tornado_demo\app\common\base_docker.py modified; restarting server
-2016-06-28 16:35:21,832 - tornado.general - INFO - D:\my project\tornado_demo\app\common\base_docker.py modified; restarting server
-2016-06-28 16:36:21,479 - tornado.general - INFO - D:\my project\tornado_demo\app\common\base_docker.py modified; restarting server
-2016-06-28 16:36:40,888 - tornado.general - INFO - D:\my project\tornado_demo\app\common\base_docker.py modified; restarting server
-2016-06-28 16:36:49,283 - tornado.general - INFO - D:\my project\tornado_demo\app\common\base_docker.py modified; restarting server
-2016-06-28 16:37:12,180 - tornado.general - INFO - D:\my project\tornado_demo\app\common\base_docker.py modified; restarting server
-2016-06-28 16:37:30,895 - tornado.general - INFO - D:\my project\tornado_demo\app\common\base_docker.py modified; restarting server
-2016-06-28 16:37:59,871 - tornado.general - INFO - D:\my project\tornado_demo\app\common\base_docker.py modified; restarting server
-2016-06-28 16:39:15,332 - tornado.general - INFO - D:\my project\tornado_demo\app\common\base_docker.py modified; restarting server
-2016-06-28 16:42:42,720 - tornado.general - INFO - D:\my project\tornado_demo\app\common\base_docker.py modified; restarting server
-2016-06-28 16:44:32,345 - tornado.general - INFO - D:\my project\tornado_demo\app\view\d_images.py modified; restarting server
-2016-06-28 16:44:37,683 - tornado.general - INFO - D:\my project\tornado_demo\app\view\d_images.py modified; restarting server
-2016-06-28 16:44:48,842 - tornado.general - INFO - D:\my project\tornado_demo\app\view\d_images.py modified; restarting server
-2016-06-28 16:44:54,901 - tornado.access - INFO - 200 GET /image/list (127.0.0.1) 9.00ms
-2016-06-28 16:44:55,467 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 304.00ms
-2016-06-28 16:44:55,470 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 2.00ms
-2016-06-28 16:44:55,471 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 2.00ms
-2016-06-28 16:44:55,473 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 1.00ms
-2016-06-28 16:44:55,476 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 1.00ms
-2016-06-28 16:44:55,476 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 1.00ms
-2016-06-28 16:44:55,480 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 2.00ms
-2016-06-28 16:44:55,483 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 2.00ms
-2016-06-28 16:44:55,484 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 1.00ms
-2016-06-28 16:44:55,486 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 1.00ms
-2016-06-28 16:44:55,490 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 2.00ms
-2016-06-28 16:44:55,492 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 1.00ms
-2016-06-28 16:44:55,510 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 1.00ms
-2016-06-28 16:44:55,526 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 4.00ms
-2016-06-28 16:44:55,536 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 1.00ms
-2016-06-28 16:44:55,618 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 1.00ms
-2016-06-28 16:44:55,668 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
-2016-06-28 16:44:55,677 - tornado.application - ERROR - Uncaught exception POST /image/list (127.0.0.1)
-HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/image/list', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '81', 'Accept-Language': 'zh-CN,zh;q=0.8,ko;q=0.6,en;q=0.4', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '127.0.0.1', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1941.0 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Cache-Control': 'max-age=0', 'Referer': 'http://127.0.0.1/image/list', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'Cookie': 'soc_user_right="2|1:0|10:1467082736|14:soc_user_right|44:NDE2NTdhNWUzY2RjMTFlNjg0MzI3NDI5YWY1NWFjMTA=|707ce43345dd96c5ecd306481a5eed6aaa6f2ef8b931e1aa4e357f9b0be2917c"; _xsrf=2|e6567a4f|b86e23838d662bbd83ec9af5bbab6ce8|1467082876'})
+TypeError: post() takes exactly 1 argument (2 given)
+2016-06-29 14:48:51,461 - tornado.access - ERROR - 500 POST /containers/start/containers_start (127.0.0.1) 4.00ms
+2016-06-29 14:48:55,039 - tornado.application - ERROR - Uncaught exception POST /containers/stop/containers_stop (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/containers/stop/containers_stop', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '80', 'Accept-Language': 'zh-CN,zh;q=0.8,ko;q=0.6,en;q=0.4', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '127.0.0.1', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1941.0 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://127.0.0.1/containers/list', 'Cookie': 'soc_user_right="2|1:0|10:1467177326|14:soc_user_right|44:N2Q2ZTBkNWUzZGI4MTFlNjgwN2I3NDI5YWY1NWFjMTA=|2743696bcd3e4e56621387783fd78784d63ab067230fe5cbc4728f47ca87fb7a"; _xsrf=2|cb13193b|1069406c794e627d37642dcb3ea39898|1467177334', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'})
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\tornado\web.py", line 1443, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+TypeError: post() takes exactly 1 argument (2 given)
+2016-06-29 14:48:55,040 - tornado.access - ERROR - 500 POST /containers/stop/containers_stop (127.0.0.1) 2.00ms
+2016-06-29 14:48:58,878 - tornado.application - ERROR - Uncaught exception POST /containers/stop/containers_stop (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/containers/stop/containers_stop', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '80', 'Accept-Language': 'zh-CN,zh;q=0.8,ko;q=0.6,en;q=0.4', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '127.0.0.1', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1941.0 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://127.0.0.1/containers/list', 'Cookie': 'soc_user_right="2|1:0|10:1467177326|14:soc_user_right|44:N2Q2ZTBkNWUzZGI4MTFlNjgwN2I3NDI5YWY1NWFjMTA=|2743696bcd3e4e56621387783fd78784d63ab067230fe5cbc4728f47ca87fb7a"; _xsrf=2|cb13193b|1069406c794e627d37642dcb3ea39898|1467177334', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'})
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\tornado\web.py", line 1443, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+TypeError: post() takes exactly 1 argument (2 given)
+2016-06-29 14:48:58,880 - tornado.access - ERROR - 500 POST /containers/stop/containers_stop (127.0.0.1) 2.00ms
+2016-06-29 14:50:01,259 - tornado.general - INFO - D:\my project\tornado_demo\app\view\d_containers.py modified; restarting server
+2016-06-29 14:53:02,727 - tornado.general - INFO - D:\my project\tornado_demo\app\view\d_containers.py modified; restarting server
+2016-06-29 14:53:19,312 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 9.00ms
+2016-06-29 14:53:19,855 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 317.00ms
+2016-06-29 14:53:19,862 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 5.00ms
+2016-06-29 14:53:19,865 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 1.00ms
+2016-06-29 14:53:19,868 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 2.00ms
+2016-06-29 14:53:19,868 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
+2016-06-29 14:53:19,871 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 2.00ms
+2016-06-29 14:53:19,921 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 1.00ms
+2016-06-29 14:53:19,924 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 2.00ms
+2016-06-29 14:53:19,928 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 2.00ms
+2016-06-29 14:53:19,937 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 4.00ms
+2016-06-29 14:53:19,941 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 3.00ms
+2016-06-29 14:53:19,944 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 1.00ms
+2016-06-29 14:53:19,947 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 1.00ms
+2016-06-29 14:53:19,953 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 1.00ms
+2016-06-29 14:53:19,970 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 7.00ms
+2016-06-29 14:53:20,052 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 1.00ms
+2016-06-29 14:53:20,125 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
+2016-06-29 14:53:20,137 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 14:53:20,142 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 10.00ms
+2016-06-29 14:53:20,190 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 1.00ms
+2016-06-29 14:53:23,582 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 14:53:23,588 - root - ERROR - (<class 'docker.errors.NotFound'>, NotFound(HTTPError(u'404 Client Error: Not Found for url: http://192.168.128.128:2376/v1.19/containers/containers_stop/start',),), <traceback object at 0x04EE9E18>)
+2016-06-29 14:53:23,594 - tornado.access - INFO - 200 POST /containers/stop/containers_stop (127.0.0.1) 15.00ms
+2016-06-29 14:55:33,137 - tornado.general - INFO - D:\my project\tornado_demo\app\view\d_containers.py modified; restarting server
+2016-06-29 14:55:56,023 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 15.00ms
+2016-06-29 14:55:56,630 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 293.00ms
+2016-06-29 14:55:56,632 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 2.00ms
+2016-06-29 14:55:56,634 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 2.00ms
+2016-06-29 14:55:56,635 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 1.00ms
+2016-06-29 14:55:56,638 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 1.00ms
+2016-06-29 14:55:56,638 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
+2016-06-29 14:55:56,687 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 2.00ms
+2016-06-29 14:55:56,690 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 1.00ms
+2016-06-29 14:55:56,691 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 2.00ms
+2016-06-29 14:55:56,693 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 1.00ms
+2016-06-29 14:55:56,694 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 1.00ms
+2016-06-29 14:55:56,697 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 2.00ms
+2016-06-29 14:55:56,710 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 1.00ms
+2016-06-29 14:55:56,720 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 2.00ms
+2016-06-29 14:55:56,733 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 2.00ms
+2016-06-29 14:55:56,835 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 2.00ms
+2016-06-29 14:55:56,967 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
+2016-06-29 14:55:56,977 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 14:55:56,983 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 10.00ms
+2016-06-29 14:55:57,003 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 1.00ms
+2016-06-29 14:55:59,947 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 14:55:59,953 - tornado.application - ERROR - Uncaught exception POST /containers/stop/containers_stop (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/containers/stop/containers_stop', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '80', 'Accept-Language': 'zh-CN,zh;q=0.8,ko;q=0.6,en;q=0.4', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '127.0.0.1', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1941.0 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://127.0.0.1/containers/list', 'Cookie': 'soc_user_right="2|1:0|10:1467177326|14:soc_user_right|44:N2Q2ZTBkNWUzZGI4MTFlNjgwN2I3NDI5YWY1NWFjMTA=|2743696bcd3e4e56621387783fd78784d63ab067230fe5cbc4728f47ca87fb7a"; _xsrf=2|cb13193b|1069406c794e627d37642dcb3ea39898|1467177334', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'})
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\tornado\web.py", line 1443, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:\my project\tornado_demo\app\view\d_containers.py", line 48, in post
+    msg = base_docker.Containers('192.168.128.128').stop(id)
+  File "D:\my project\tornado_demo\app\common\base_docker.py", line 101, in stop
+    return self.c.start(container=container)
+  File "C:\Python27\lib\site-packages\docker\utils\decorators.py", line 21, in wrapped
+    return f(self, resource_id, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\docker\api\container.py", line 366, in start
+    self._raise_for_status(res)
+  File "C:\Python27\lib\site-packages\docker\client.py", line 153, in _raise_for_status
+    raise errors.NotFound(e, response, explanation=explanation)
+NotFound: 404 Client Error: Not Found ("no such id: containers_stop")
+2016-06-29 14:56:00,009 - tornado.access - ERROR - 500 POST /containers/stop/containers_stop (127.0.0.1) 65.00ms
+2016-06-29 14:56:40,887 - tornado.general - INFO - D:\my project\tornado_demo\app\common\base_docker.py modified; restarting server
+2016-06-29 14:56:55,690 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 9.00ms
+2016-06-29 14:56:56,273 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 298.00ms
+2016-06-29 14:56:56,276 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 2.00ms
+2016-06-29 14:56:56,279 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 1.00ms
+2016-06-29 14:56:56,282 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 2.00ms
+2016-06-29 14:56:56,283 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 1.00ms
+2016-06-29 14:56:56,285 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
+2016-06-29 14:56:56,288 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 2.00ms
+2016-06-29 14:56:56,290 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 2.00ms
+2016-06-29 14:56:56,292 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 1.00ms
+2016-06-29 14:56:56,295 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 1.00ms
+2016-06-29 14:56:56,296 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 1.00ms
+2016-06-29 14:56:56,299 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 1.00ms
+2016-06-29 14:56:56,315 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 1.00ms
+2016-06-29 14:56:56,349 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 2.00ms
+2016-06-29 14:56:56,358 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 1.00ms
+2016-06-29 14:56:56,463 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 1.00ms
+2016-06-29 14:56:56,528 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
+2016-06-29 14:56:56,538 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 14:56:56,543 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 9.00ms
+2016-06-29 14:56:56,563 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 2.00ms
+2016-06-29 14:56:59,247 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 14:56:59,256 - tornado.application - ERROR - Uncaught exception POST /containers/stop/containers_stop (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/containers/stop/containers_stop', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '80', 'Accept-Language': 'zh-CN,zh;q=0.8,ko;q=0.6,en;q=0.4', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '127.0.0.1', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1941.0 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://127.0.0.1/containers/list', 'Cookie': 'soc_user_right="2|1:0|10:1467177326|14:soc_user_right|44:N2Q2ZTBkNWUzZGI4MTFlNjgwN2I3NDI5YWY1NWFjMTA=|2743696bcd3e4e56621387783fd78784d63ab067230fe5cbc4728f47ca87fb7a"; _xsrf=2|cb13193b|1069406c794e627d37642dcb3ea39898|1467177334', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'})
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\tornado\web.py", line 1443, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:\my project\tornado_demo\app\view\d_containers.py", line 48, in post
+    msg = base_docker.Containers('192.168.128.128').stop(id)
+  File "D:\my project\tornado_demo\app\common\base_docker.py", line 101, in stop
+    return self.c.stop(container=container)
+  File "C:\Python27\lib\site-packages\docker\utils\decorators.py", line 21, in wrapped
+    return f(self, resource_id, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\docker\api\container.py", line 386, in stop
+    self._raise_for_status(res)
+  File "C:\Python27\lib\site-packages\docker\client.py", line 153, in _raise_for_status
+    raise errors.NotFound(e, response, explanation=explanation)
+NotFound: 404 Client Error: Not Found ("no such id: containers_stop")
+2016-06-29 14:56:59,259 - tornado.access - ERROR - 500 POST /containers/stop/containers_stop (127.0.0.1) 14.00ms
+2016-06-29 14:57:17,914 - tornado.general - INFO - D:\my project\tornado_demo\app\view\d_containers.py modified; restarting server
+2016-06-29 14:57:24,046 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 9.00ms
+2016-06-29 14:57:24,605 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 305.00ms
+2016-06-29 14:57:24,608 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 1.00ms
+2016-06-29 14:57:24,611 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 0.00ms
+2016-06-29 14:57:24,612 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 0.00ms
+2016-06-29 14:57:24,615 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 3.00ms
+2016-06-29 14:57:24,618 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
+2016-06-29 14:57:24,621 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 1.00ms
+2016-06-29 14:57:24,622 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 1.00ms
+2016-06-29 14:57:24,625 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 1.00ms
+2016-06-29 14:57:24,628 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 1.00ms
+2016-06-29 14:57:24,630 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 1.00ms
+2016-06-29 14:57:24,677 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 2.00ms
+2016-06-29 14:57:24,684 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 1.00ms
+2016-06-29 14:57:24,703 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 2.00ms
+2016-06-29 14:57:24,714 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 2.00ms
+2016-06-29 14:57:24,805 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 1.00ms
+2016-06-29 14:57:24,874 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
+2016-06-29 14:57:24,884 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 14:57:24,890 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 10.00ms
+2016-06-29 14:57:24,910 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 1.00ms
+2016-06-29 14:57:27,528 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 14:57:27,533 - tornado.application - ERROR - Uncaught exception POST /containers/stop/containers_stop (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/containers/stop/containers_stop', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '80', 'Accept-Language': 'zh-CN,zh;q=0.8,ko;q=0.6,en;q=0.4', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '127.0.0.1', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1941.0 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://127.0.0.1/containers/list', 'Cookie': 'soc_user_right="2|1:0|10:1467177326|14:soc_user_right|44:N2Q2ZTBkNWUzZGI4MTFlNjgwN2I3NDI5YWY1NWFjMTA=|2743696bcd3e4e56621387783fd78784d63ab067230fe5cbc4728f47ca87fb7a"; _xsrf=2|cb13193b|1069406c794e627d37642dcb3ea39898|1467177334', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'})
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\tornado\web.py", line 1443, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:\my project\tornado_demo\app\view\d_containers.py", line 49, in post
+    msg = base_docker.Containers('192.168.128.128').stop(id)
+  File "D:\my project\tornado_demo\app\common\base_docker.py", line 101, in stop
+    return self.c.stop(container=container)
+  File "C:\Python27\lib\site-packages\docker\utils\decorators.py", line 21, in wrapped
+    return f(self, resource_id, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\docker\api\container.py", line 386, in stop
+    self._raise_for_status(res)
+  File "C:\Python27\lib\site-packages\docker\client.py", line 153, in _raise_for_status
+    raise errors.NotFound(e, response, explanation=explanation)
+NotFound: 404 Client Error: Not Found ("no such id: containers_stop")
+2016-06-29 14:57:27,538 - tornado.access - ERROR - 500 POST /containers/stop/containers_stop (127.0.0.1) 14.00ms
+2016-06-29 14:58:47,956 - tornado.general - INFO - D:\my project\tornado_demo\app\url.py modified; restarting server
+2016-06-29 14:59:21,434 - tornado.general - INFO - D:\my project\tornado_demo\app\view\d_containers.py modified; restarting server
+2016-06-29 14:59:29,950 - tornado.access - WARNING - 405 POST /containers/stop/containers_stop (127.0.0.1) 2.00ms
+2016-06-29 14:59:40,042 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 9.00ms
+2016-06-29 14:59:40,561 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 286.00ms
+2016-06-29 14:59:40,565 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 2.00ms
+2016-06-29 14:59:40,566 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 1.00ms
+2016-06-29 14:59:40,569 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 2.00ms
+2016-06-29 14:59:40,572 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 2.00ms
+2016-06-29 14:59:40,575 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 3.00ms
+2016-06-29 14:59:40,622 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 1.00ms
+2016-06-29 14:59:40,625 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 2.00ms
+2016-06-29 14:59:40,628 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 1.00ms
+2016-06-29 14:59:40,631 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 3.00ms
+2016-06-29 14:59:40,635 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 3.00ms
+2016-06-29 14:59:40,638 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 2.00ms
+2016-06-29 14:59:40,642 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 2.00ms
+2016-06-29 14:59:40,655 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 2.00ms
+2016-06-29 14:59:40,667 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 3.00ms
+2016-06-29 14:59:40,753 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 2.00ms
+2016-06-29 14:59:40,815 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
+2016-06-29 14:59:40,825 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 14:59:45,926 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 5105.00ms
+2016-06-29 14:59:45,971 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 1.00ms
+2016-06-29 14:59:50,033 - tornado.access - WARNING - 405 POST /containers/stop/containers_stop (127.0.0.1) 1.00ms
+2016-06-29 15:00:30,601 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 7.00ms
+2016-06-29 15:00:30,854 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 2.00ms
+2016-06-29 15:00:30,865 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 1.00ms
+2016-06-29 15:00:30,878 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 1.00ms
+2016-06-29 15:00:30,890 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 2.00ms
+2016-06-29 15:00:30,900 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 1.00ms
+2016-06-29 15:00:30,911 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 2.00ms
+2016-06-29 15:00:30,920 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 1.00ms
+2016-06-29 15:00:30,930 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 2.00ms
+2016-06-29 15:00:30,940 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 1.00ms
+2016-06-29 15:00:30,950 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 2.00ms
+2016-06-29 15:00:30,960 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 1.00ms
+2016-06-29 15:00:30,970 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 1.00ms
+2016-06-29 15:00:31,036 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 1.00ms
+2016-06-29 15:00:31,063 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 2.00ms
+2016-06-29 15:00:31,073 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 1.00ms
+2016-06-29 15:00:31,188 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 2.00ms
+2016-06-29 15:00:31,253 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
+2016-06-29 15:00:31,263 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 15:00:31,269 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 9.00ms
+2016-06-29 15:00:31,289 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 1.00ms
+2016-06-29 15:00:33,263 - tornado.access - WARNING - 405 POST /containers/start/containers_start (127.0.0.1) 1.00ms
+2016-06-29 15:00:35,851 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 15:00:35,857 - tornado.application - ERROR - Uncaught exception POST /containers/stop (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/containers/stop', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '80', 'Accept-Language': 'zh-CN,zh;q=0.8,ko;q=0.6,en;q=0.4', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '127.0.0.1', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1941.0 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://127.0.0.1/containers/list', 'Cookie': 'soc_user_right="2|1:0|10:1467177326|14:soc_user_right|44:N2Q2ZTBkNWUzZGI4MTFlNjgwN2I3NDI5YWY1NWFjMTA=|2743696bcd3e4e56621387783fd78784d63ab067230fe5cbc4728f47ca87fb7a"; _xsrf=2|cb13193b|1069406c794e627d37642dcb3ea39898|1467177334', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'})
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\tornado\web.py", line 1443, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:\my project\tornado_demo\app\view\d_containers.py", line 50, in post
+    msg = base_docker.Containers('192.168.128.128').stop(id)
+  File "D:\my project\tornado_demo\app\common\base_docker.py", line 101, in stop
+    return self.c.stop(container=container)
+  File "C:\Python27\lib\site-packages\docker\utils\decorators.py", line 21, in wrapped
+    return f(self, resource_id, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\docker\api\container.py", line 386, in stop
+    self._raise_for_status(res)
+  File "C:\Python27\lib\site-packages\docker\client.py", line 153, in _raise_for_status
+    raise errors.NotFound(e, response, explanation=explanation)
+NotFound: 404 Client Error: Not Found ("no such id: containers_stop")
+2016-06-29 15:00:35,861 - tornado.access - ERROR - 500 POST /containers/stop (127.0.0.1) 13.00ms
+2016-06-29 15:01:14,052 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 7.00ms
+2016-06-29 15:01:14,288 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 2.00ms
+2016-06-29 15:01:14,299 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 2.00ms
+2016-06-29 15:01:14,312 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 2.00ms
+2016-06-29 15:01:14,322 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 1.00ms
+2016-06-29 15:01:14,335 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 1.00ms
+2016-06-29 15:01:14,348 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 2.00ms
+2016-06-29 15:01:14,357 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 1.00ms
+2016-06-29 15:01:14,367 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 2.00ms
+2016-06-29 15:01:14,377 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 2.00ms
+2016-06-29 15:01:14,387 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 2.00ms
+2016-06-29 15:01:14,395 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 1.00ms
+2016-06-29 15:01:14,404 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 1.00ms
+2016-06-29 15:01:14,451 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 1.00ms
+2016-06-29 15:01:14,484 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 2.00ms
+2016-06-29 15:01:14,533 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 2.00ms
+2016-06-29 15:01:14,596 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 2.00ms
+2016-06-29 15:01:14,671 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 2.00ms
+2016-06-29 15:01:14,681 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 15:01:14,693 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 16.00ms
+2016-06-29 15:01:14,713 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 2.00ms
+2016-06-29 15:01:17,161 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 15:01:17,168 - tornado.application - ERROR - Uncaught exception POST /containers/stop (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/containers/stop', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '74', 'Accept-Language': 'zh-CN,zh;q=0.8,ko;q=0.6,en;q=0.4', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '127.0.0.1', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1941.0 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://127.0.0.1/containers/list', 'Cookie': 'soc_user_right="2|1:0|10:1467177326|14:soc_user_right|44:N2Q2ZTBkNWUzZGI4MTFlNjgwN2I3NDI5YWY1NWFjMTA=|2743696bcd3e4e56621387783fd78784d63ab067230fe5cbc4728f47ca87fb7a"; _xsrf=2|cb13193b|1069406c794e627d37642dcb3ea39898|1467177334', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'})
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\tornado\web.py", line 1443, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "D:\my project\tornado_demo\app\view\d_containers.py", line 50, in post
+    msg = base_docker.Containers('192.168.128.128').stop(id)
+  File "D:\my project\tornado_demo\app\common\base_docker.py", line 101, in stop
+    return self.c.stop(container=container)
+  File "C:\Python27\lib\site-packages\docker\utils\decorators.py", line 21, in wrapped
+    return f(self, resource_id, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\docker\api\container.py", line 386, in stop
+    self._raise_for_status(res)
+  File "C:\Python27\lib\site-packages\docker\client.py", line 153, in _raise_for_status
+    raise errors.NotFound(e, response, explanation=explanation)
+NotFound: 404 Client Error: Not Found ("no such id: undefined")
+2016-06-29 15:01:17,171 - tornado.access - ERROR - 500 POST /containers/stop (127.0.0.1) 14.00ms
+2016-06-29 15:02:59,292 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 7.00ms
+2016-06-29 15:02:59,553 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 2.00ms
+2016-06-29 15:02:59,565 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 1.00ms
+2016-06-29 15:02:59,578 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 2.00ms
+2016-06-29 15:02:59,589 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 2.00ms
+2016-06-29 15:02:59,598 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 1.00ms
+2016-06-29 15:02:59,608 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
+2016-06-29 15:02:59,618 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 1.00ms
+2016-06-29 15:02:59,628 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 1.00ms
+2016-06-29 15:02:59,638 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 2.00ms
+2016-06-29 15:02:59,648 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 1.00ms
+2016-06-29 15:02:59,661 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 1.00ms
+2016-06-29 15:02:59,673 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 1.00ms
+2016-06-29 15:02:59,727 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 1.00ms
+2016-06-29 15:02:59,770 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 1.00ms
+2016-06-29 15:02:59,785 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 2.00ms
+2016-06-29 15:02:59,904 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 2.00ms
+2016-06-29 15:02:59,976 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
+2016-06-29 15:02:59,986 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 15:02:59,993 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 8.00ms
+2016-06-29 15:03:00,051 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 1.00ms
+2016-06-29 15:03:05,956 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 15:03:16,165 - tornado.access - INFO - 200 POST /containers/stop (127.0.0.1) 10215.00ms
+2016-06-29 15:03:16,174 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 15:03:16,183 - tornado.access - INFO - 200 POST /containers/stop (127.0.0.1) 16.00ms
+2016-06-29 15:03:16,190 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 15:03:26,703 - tornado.access - INFO - 200 POST /containers/stop (127.0.0.1) 10521.00ms
+2016-06-29 15:03:26,746 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 7.00ms
+2016-06-29 15:03:27,075 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 15:03:27,079 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 8.00ms
+2016-06-29 15:03:55,607 - tornado.access - WARNING - 405 POST /containers/start/containers_start (127.0.0.1) 1.00ms
+2016-06-29 15:04:27,338 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 8.00ms
+2016-06-29 15:04:27,609 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 2.00ms
+2016-06-29 15:04:27,621 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 1.00ms
+2016-06-29 15:04:27,631 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 2.00ms
+2016-06-29 15:04:27,642 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 1.00ms
+2016-06-29 15:04:27,654 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 2.00ms
+2016-06-29 15:04:27,664 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 2.00ms
+2016-06-29 15:04:27,674 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 2.00ms
+2016-06-29 15:04:27,684 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 2.00ms
+2016-06-29 15:04:27,694 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 1.00ms
+2016-06-29 15:04:27,707 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 2.00ms
+2016-06-29 15:04:27,716 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 1.00ms
+2016-06-29 15:04:27,726 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 1.00ms
+2016-06-29 15:04:27,779 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 2.00ms
+2016-06-29 15:04:27,809 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 2.00ms
+2016-06-29 15:04:27,819 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 1.00ms
+2016-06-29 15:04:27,940 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 1.00ms
+2016-06-29 15:04:28,038 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 15:04:28,042 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 8.00ms
+2016-06-29 15:04:28,045 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
+2016-06-29 15:04:28,065 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 1.00ms
+2016-06-29 15:04:30,144 - tornado.application - ERROR - Uncaught exception POST /containers/start (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/containers/start', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '129', 'Accept-Language': 'zh-CN,zh;q=0.8,ko;q=0.6,en;q=0.4', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '127.0.0.1', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1941.0 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://127.0.0.1/containers/list', 'Cookie': 'soc_user_right="2|1:0|10:1467177326|14:soc_user_right|44:N2Q2ZTBkNWUzZGI4MTFlNjgwN2I3NDI5YWY1NWFjMTA=|2743696bcd3e4e56621387783fd78784d63ab067230fe5cbc4728f47ca87fb7a"; _xsrf=2|cb13193b|1069406c794e627d37642dcb3ea39898|1467177334', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'})
 Traceback (most recent call last):
   File "C:\Python27\lib\site-packages\tornado\web.py", line 1443, in _execute
     result = method(*self.path_args, **self.path_kwargs)
 TypeError: post() takes exactly 2 arguments (1 given)
-2016-06-28 16:44:55,680 - tornado.access - ERROR - 500 POST /image/list (127.0.0.1) 3.00ms
-2016-06-28 16:44:55,700 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 2.00ms
-2016-06-28 16:45:48,046 - tornado.general - INFO - D:\my project\tornado_demo\app\view\d_images.py modified; restarting server
-2016-06-28 16:46:23,200 - tornado.access - INFO - 200 GET /image/list (127.0.0.1) 9.00ms
-2016-06-28 16:46:23,799 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 315.00ms
-2016-06-28 16:46:23,801 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 1.00ms
-2016-06-28 16:46:23,802 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 1.00ms
-2016-06-28 16:46:23,805 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 1.00ms
-2016-06-28 16:46:23,806 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 1.00ms
-2016-06-28 16:46:23,808 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
-2016-06-28 16:46:23,859 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 1.00ms
-2016-06-28 16:46:23,862 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 1.00ms
-2016-06-28 16:46:23,867 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 2.00ms
-2016-06-28 16:46:23,869 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 2.00ms
-2016-06-28 16:46:23,874 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 1.00ms
-2016-06-28 16:46:23,877 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 2.00ms
-2016-06-28 16:46:23,882 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 3.00ms
-2016-06-28 16:46:23,891 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 2.00ms
-2016-06-28 16:46:23,904 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 1.00ms
-2016-06-28 16:46:23,970 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 1.00ms
-2016-06-28 16:46:24,017 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 0.00ms
-2016-06-28 16:46:24,026 - tornado.application - ERROR - Uncaught exception POST /image/list (127.0.0.1)
-HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/image/list', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '80', 'Accept-Language': 'zh-CN,zh;q=0.8,ko;q=0.6,en;q=0.4', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '127.0.0.1', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1941.0 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Cache-Control': 'max-age=0', 'Referer': 'http://127.0.0.1/image/list', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'Cookie': 'soc_user_right="2|1:0|10:1467082736|14:soc_user_right|44:NDE2NTdhNWUzY2RjMTFlNjg0MzI3NDI5YWY1NWFjMTA=|707ce43345dd96c5ecd306481a5eed6aaa6f2ef8b931e1aa4e357f9b0be2917c"; _xsrf=2|e6567a4f|b86e23838d662bbd83ec9af5bbab6ce8|1467082876'})
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\tornado\web.py", line 1443, in _execute
-    result = method(*self.path_args, **self.path_kwargs)
-TypeError: post() takes exactly 2 arguments (1 given)
-2016-06-28 16:46:24,028 - tornado.access - ERROR - 500 POST /image/list (127.0.0.1) 3.00ms
-2016-06-28 16:46:24,045 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 1.00ms
-2016-06-28 16:47:12,223 - tornado.general - INFO - D:\my project\tornado_demo\app\view\d_images.py modified; restarting server
-2016-06-28 16:47:16,309 - tornado.access - INFO - 200 GET /image/list (127.0.0.1) 10.00ms
-2016-06-28 16:47:16,898 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 311.00ms
-2016-06-28 16:47:16,901 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 1.00ms
-2016-06-28 16:47:16,903 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 1.00ms
-2016-06-28 16:47:16,907 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 3.00ms
-2016-06-28 16:47:16,907 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
-2016-06-28 16:47:16,910 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 1.00ms
-2016-06-28 16:47:16,913 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 2.00ms
-2016-06-28 16:47:16,915 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 1.00ms
-2016-06-28 16:47:16,918 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 2.00ms
-2016-06-28 16:47:16,921 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 1.00ms
-2016-06-28 16:47:16,924 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 1.00ms
-2016-06-28 16:47:16,927 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 1.00ms
-2016-06-28 16:47:16,940 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 1.00ms
-2016-06-28 16:47:16,999 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 1.00ms
-2016-06-28 16:47:17,000 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 2.00ms
-2016-06-28 16:47:17,051 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 2.00ms
-2016-06-28 16:47:17,115 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 2.00ms
-2016-06-28 16:47:17,122 - tornado.application - ERROR - Uncaught exception POST /image/list (127.0.0.1)
-HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/image/list', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '80', 'Accept-Language': 'zh-CN,zh;q=0.8,ko;q=0.6,en;q=0.4', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '127.0.0.1', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1941.0 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Cache-Control': 'max-age=0', 'Referer': 'http://127.0.0.1/image/list', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'Cookie': 'soc_user_right="2|1:0|10:1467082736|14:soc_user_right|44:NDE2NTdhNWUzY2RjMTFlNjg0MzI3NDI5YWY1NWFjMTA=|707ce43345dd96c5ecd306481a5eed6aaa6f2ef8b931e1aa4e357f9b0be2917c"; _xsrf=2|e6567a4f|b86e23838d662bbd83ec9af5bbab6ce8|1467082876'})
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\tornado\web.py", line 1443, in _execute
-    result = method(*self.path_args, **self.path_kwargs)
-TypeError: post() takes exactly 2 arguments (1 given)
-2016-06-28 16:47:17,125 - tornado.access - ERROR - 500 POST /image/list (127.0.0.1) 4.00ms
-2016-06-28 16:47:17,145 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 2.00ms
-2016-06-28 16:47:34,305 - tornado.access - INFO - 200 GET /image/list (127.0.0.1) 9.00ms
-2016-06-28 16:47:34,881 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 299.00ms
-2016-06-28 16:47:34,884 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 1.00ms
-2016-06-28 16:47:34,885 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 1.00ms
-2016-06-28 16:47:34,888 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 2.00ms
-2016-06-28 16:47:34,891 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 2.00ms
-2016-06-28 16:47:34,894 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
-2016-06-28 16:47:34,898 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 1.00ms
-2016-06-28 16:47:34,900 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 1.00ms
-2016-06-28 16:47:34,903 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 2.00ms
-2016-06-28 16:47:34,907 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 1.00ms
-2016-06-28 16:47:34,910 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 2.00ms
-2016-06-28 16:47:34,913 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 2.00ms
-2016-06-28 16:47:34,934 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 1.00ms
-2016-06-28 16:47:34,951 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 1.00ms
-2016-06-28 16:47:34,963 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 2.00ms
-2016-06-28 16:47:35,038 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 1.00ms
-2016-06-28 16:47:35,084 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
-2016-06-28 16:47:35,094 - tornado.application - ERROR - Uncaught exception POST /image/list (127.0.0.1)
-HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/image/list', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '80', 'Accept-Language': 'zh-CN,zh;q=0.8,ko;q=0.6,en;q=0.4', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '127.0.0.1', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1941.0 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Cache-Control': 'max-age=0', 'Referer': 'http://127.0.0.1/image/list', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'Cookie': 'soc_user_right="2|1:0|10:1467082736|14:soc_user_right|44:NDE2NTdhNWUzY2RjMTFlNjg0MzI3NDI5YWY1NWFjMTA=|707ce43345dd96c5ecd306481a5eed6aaa6f2ef8b931e1aa4e357f9b0be2917c"; _xsrf=2|e6567a4f|b86e23838d662bbd83ec9af5bbab6ce8|1467082876'})
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\tornado\web.py", line 1443, in _execute
-    result = method(*self.path_args, **self.path_kwargs)
-TypeError: post() takes exactly 2 arguments (1 given)
-2016-06-28 16:47:35,095 - tornado.access - ERROR - 500 POST /image/list (127.0.0.1) 3.00ms
-2016-06-28 16:47:35,115 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 1.00ms
-2016-06-28 16:48:56,155 - tornado.access - INFO - 200 GET /image/list (127.0.0.1) 10.00ms
-2016-06-28 16:48:56,704 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 305.00ms
-2016-06-28 16:48:56,707 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 2.00ms
-2016-06-28 16:48:56,710 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
-2016-06-28 16:48:56,710 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 1.00ms
-2016-06-28 16:48:56,713 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 1.00ms
-2016-06-28 16:48:56,713 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 1.00ms
-2016-06-28 16:48:56,767 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 1.00ms
-2016-06-28 16:48:56,770 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 2.00ms
-2016-06-28 16:48:56,773 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 2.00ms
-2016-06-28 16:48:56,776 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 1.00ms
-2016-06-28 16:48:56,783 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 4.00ms
-2016-06-28 16:48:56,789 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 3.00ms
-2016-06-28 16:48:56,792 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 2.00ms
-2016-06-28 16:48:56,798 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 2.00ms
-2016-06-28 16:48:56,809 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 1.00ms
-2016-06-28 16:48:56,875 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 1.00ms
-2016-06-28 16:48:56,921 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 2.00ms
-2016-06-28 16:48:56,928 - tornado.application - ERROR - Uncaught exception POST /image/list (127.0.0.1)
-HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/image/list', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '80', 'Accept-Language': 'zh-CN,zh;q=0.8,ko;q=0.6,en;q=0.4', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '127.0.0.1', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1941.0 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Cache-Control': 'max-age=0', 'Referer': 'http://127.0.0.1/image/list', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'Cookie': 'soc_user_right="2|1:0|10:1467082736|14:soc_user_right|44:NDE2NTdhNWUzY2RjMTFlNjg0MzI3NDI5YWY1NWFjMTA=|707ce43345dd96c5ecd306481a5eed6aaa6f2ef8b931e1aa4e357f9b0be2917c"; _xsrf=2|e6567a4f|b86e23838d662bbd83ec9af5bbab6ce8|1467082876'})
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\tornado\web.py", line 1443, in _execute
-    result = method(*self.path_args, **self.path_kwargs)
-TypeError: post() takes exactly 2 arguments (1 given)
-2016-06-28 16:48:56,930 - tornado.access - ERROR - 500 POST /image/list (127.0.0.1) 2.00ms
-2016-06-28 16:48:56,947 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 1.00ms
-2016-06-28 16:57:49,032 - tornado.general - INFO - D:\my project\tornado_demo\app\view\d_images.py modified; restarting server
-2016-06-28 16:57:52,234 - tornado.access - INFO - 200 GET /image/list (127.0.0.1) 10.00ms
-2016-06-28 16:57:52,959 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 377.00ms
-2016-06-28 16:57:52,961 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 2.00ms
-2016-06-28 16:57:52,963 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
-2016-06-28 16:57:52,964 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 1.00ms
-2016-06-28 16:57:52,967 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 1.00ms
-2016-06-28 16:57:52,970 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 3.00ms
-2016-06-28 16:57:53,026 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 1.00ms
-2016-06-28 16:57:53,029 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 2.00ms
-2016-06-28 16:57:53,040 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 2.00ms
-2016-06-28 16:57:53,042 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 1.00ms
-2016-06-28 16:57:53,046 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 2.00ms
-2016-06-28 16:57:53,052 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 4.00ms
-2016-06-28 16:57:53,055 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 3.00ms
-2016-06-28 16:57:53,069 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 3.00ms
-2016-06-28 16:57:53,081 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 1.00ms
-2016-06-28 16:57:53,691 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 1.00ms
-2016-06-28 16:57:53,742 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
-2016-06-28 16:57:53,750 - tornado.application - ERROR - Uncaught exception POST /image/list (127.0.0.1)
-HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/image/list', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '80', 'Accept-Language': 'zh-CN,zh;q=0.8,ko;q=0.6,en;q=0.4', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '127.0.0.1', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1941.0 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Cache-Control': 'max-age=0', 'Referer': 'http://127.0.0.1/image/list', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'Cookie': 'soc_user_right="2|1:0|10:1467082736|14:soc_user_right|44:NDE2NTdhNWUzY2RjMTFlNjg0MzI3NDI5YWY1NWFjMTA=|707ce43345dd96c5ecd306481a5eed6aaa6f2ef8b931e1aa4e357f9b0be2917c"; _xsrf=2|e6567a4f|b86e23838d662bbd83ec9af5bbab6ce8|1467082876'})
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\tornado\web.py", line 1443, in _execute
-    result = method(*self.path_args, **self.path_kwargs)
-TypeError: post() takes exactly 2 arguments (1 given)
-2016-06-28 16:57:53,753 - tornado.access - ERROR - 500 POST /image/list (127.0.0.1) 4.00ms
-2016-06-28 16:57:53,775 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 2.00ms
-2016-06-28 17:06:28,538 - tornado.access - INFO - 200 GET /login (127.0.0.1) 8.00ms
-2016-06-28 17:06:29,104 - tornado.access - INFO - 304 GET /Content/Styles/learunui-framework.css (127.0.0.1) 285.00ms
-2016-06-28 17:06:29,105 - tornado.access - INFO - 304 GET /Content/Scripts/cookie/jquery.cookie.js (127.0.0.1) 1.00ms
-2016-06-28 17:06:29,108 - tornado.access - INFO - 304 GET /Content/Scripts/jquery/jquery-1.8.2.min.js (127.0.0.1) 2.00ms
-2016-06-28 17:06:29,111 - tornado.access - INFO - 304 GET /Content/Scripts/jquery/jQuery.md5.js (127.0.0.1) 1.00ms
-2016-06-28 17:06:29,112 - tornado.access - INFO - 304 GET /Content/Styles/learunui-login.css (127.0.0.1) 1.00ms
-2016-06-28 17:06:29,115 - tornado.access - INFO - 304 GET /Content/Scripts/learunui-framework.js (127.0.0.1) 1.00ms
-2016-06-28 17:06:29,118 - tornado.access - INFO - 304 GET /Content/Styles/zzsc.css (127.0.0.1) 2.00ms
-2016-06-28 17:06:29,121 - tornado.access - INFO - 200 GET /js/jsencrypt.js (127.0.0.1) 3.00ms
-2016-06-28 17:06:29,255 - tornado.access - INFO - 200 GET /Images/favicon.ico (127.0.0.1) 3.00ms
-2016-06-28 17:06:37,178 - tornado.access - INFO - 200 POST /login (127.0.0.1) 71.00ms
-2016-06-28 17:06:38,198 - tornado.access - INFO - 200 GET /index (127.0.0.1) 5.00ms
-2016-06-28 17:06:44,403 - tornado.access - INFO - 200 GET /image/list (127.0.0.1) 8.00ms
-2016-06-28 17:06:44,739 - tornado.application - ERROR - Uncaught exception POST /image/list (127.0.0.1)
-HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/image/list', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '80', 'Accept-Language': 'zh-CN,zh;q=0.8,ko;q=0.6,en;q=0.4', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '127.0.0.1', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1941.0 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://127.0.0.1/image/list', 'Cookie': 'soc_user_right="2|1:0|10:1467104797|14:soc_user_right|44:OWU1ODc1OWUzZDBmMTFlNmE0Yjc3NDI5YWY1NWFjMTA=|5f70aaae549aaf2e06ab35b746488475294066879bb621c6535cf10fbfd1f27e"; _xsrf=2|d6a9fa80|2f088cbf36afc5b02abb0a328d61495b|1467104804', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'})
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\tornado\web.py", line 1443, in _execute
-    result = method(*self.path_args, **self.path_kwargs)
-TypeError: post() takes exactly 2 arguments (1 given)
-2016-06-28 17:06:44,740 - tornado.access - ERROR - 500 POST /image/list (127.0.0.1) 3.00ms
-2016-06-28 17:07:39,763 - tornado.access - INFO - 200 GET /image/list (127.0.0.1) 8.00ms
-2016-06-28 17:07:40,036 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 1.00ms
-2016-06-28 17:07:40,046 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 2.00ms
-2016-06-28 17:07:40,059 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 2.00ms
-2016-06-28 17:07:40,069 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 2.00ms
-2016-06-28 17:07:40,082 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 2.00ms
-2016-06-28 17:07:40,092 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
-2016-06-28 17:07:40,107 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 2.00ms
-2016-06-28 17:07:40,121 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 1.00ms
-2016-06-28 17:07:40,132 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 2.00ms
-2016-06-28 17:07:40,144 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 1.00ms
-2016-06-28 17:07:40,154 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 1.00ms
-2016-06-28 17:07:40,164 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 1.00ms
-2016-06-28 17:07:40,253 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 2.00ms
-2016-06-28 17:07:40,256 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 2.00ms
-2016-06-28 17:07:40,263 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 2.00ms
-2016-06-28 17:07:40,338 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 1.00ms
-2016-06-28 17:07:40,400 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 2.00ms
-2016-06-28 17:07:40,407 - tornado.application - ERROR - Uncaught exception POST /image/list (127.0.0.1)
-HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/image/list', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '80', 'Accept-Language': 'zh-CN,zh;q=0.8,ko;q=0.6,en;q=0.4', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '127.0.0.1', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1941.0 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Cache-Control': 'max-age=0', 'Referer': 'http://127.0.0.1/image/list', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'Cookie': 'soc_user_right="2|1:0|10:1467104797|14:soc_user_right|44:OWU1ODc1OWUzZDBmMTFlNmE0Yjc3NDI5YWY1NWFjMTA=|5f70aaae549aaf2e06ab35b746488475294066879bb621c6535cf10fbfd1f27e"; _xsrf=2|d6a9fa80|2f088cbf36afc5b02abb0a328d61495b|1467104804'})
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\tornado\web.py", line 1443, in _execute
-    result = method(*self.path_args, **self.path_kwargs)
-TypeError: post() takes exactly 2 arguments (1 given)
-2016-06-28 17:07:40,411 - tornado.access - ERROR - 500 POST /image/list (127.0.0.1) 4.00ms
-2016-06-28 17:07:40,431 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 1.00ms
-2016-06-28 17:08:26,706 - tornado.general - INFO - D:\my project\tornado_demo\app\view\d_images.py modified; restarting server
-2016-06-28 17:08:43,980 - tornado.access - INFO - 200 GET /image/list (127.0.0.1) 9.00ms
-2016-06-28 17:08:44,526 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 280.00ms
-2016-06-28 17:08:44,529 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
-2016-06-28 17:08:44,533 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 3.00ms
-2016-06-28 17:08:44,536 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 2.00ms
-2016-06-28 17:08:44,539 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 2.00ms
-2016-06-28 17:08:44,546 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 6.00ms
-2016-06-28 17:08:44,617 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 1.00ms
-2016-06-28 17:08:44,618 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 1.00ms
-2016-06-28 17:08:44,622 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 2.00ms
-2016-06-28 17:08:44,628 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 5.00ms
-2016-06-28 17:08:44,631 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 1.00ms
-2016-06-28 17:08:44,638 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 5.00ms
-2016-06-28 17:08:44,642 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 4.00ms
-2016-06-28 17:08:44,648 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 2.00ms
-2016-06-28 17:08:44,660 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 1.00ms
-2016-06-28 17:08:44,782 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 2.00ms
-2016-06-28 17:08:44,882 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 2.00ms
-2016-06-28 17:08:44,891 - tornado.application - ERROR - Uncaught exception POST /image/list (127.0.0.1)
-HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/image/list', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '80', 'Accept-Language': 'zh-CN,zh;q=0.8,ko;q=0.6,en;q=0.4', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '127.0.0.1', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1941.0 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Cache-Control': 'max-age=0', 'Referer': 'http://127.0.0.1/image/list', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'Cookie': 'soc_user_right="2|1:0|10:1467104797|14:soc_user_right|44:OWU1ODc1OWUzZDBmMTFlNmE0Yjc3NDI5YWY1NWFjMTA=|5f70aaae549aaf2e06ab35b746488475294066879bb621c6535cf10fbfd1f27e"; _xsrf=2|d6a9fa80|2f088cbf36afc5b02abb0a328d61495b|1467104804'})
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\tornado\web.py", line 1443, in _execute
-    result = method(*self.path_args, **self.path_kwargs)
-TypeError: post() takes exactly 2 arguments (1 given)
-2016-06-28 17:08:44,891 - tornado.access - ERROR - 500 POST /image/list (127.0.0.1) 3.00ms
-2016-06-28 17:08:44,911 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 2.00ms
-2016-06-28 17:09:14,002 - tornado.general - INFO - D:\my project\tornado_demo\app\view\base.py modified; restarting server
-2016-06-28 17:09:22,982 - tornado.general - INFO - D:\my project\tornado_demo\app\view\base.py modified; restarting server
-2016-06-28 17:09:26,033 - tornado.general - INFO - D:\my project\tornado_demo\app\view\base.py modified; restarting server
-2016-06-28 17:09:28,371 - tornado.access - INFO - 200 GET /image/list (127.0.0.1) 9.00ms
-2016-06-28 17:09:28,943 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 300.00ms
-2016-06-28 17:09:28,944 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 1.00ms
-2016-06-28 17:09:28,947 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
-2016-06-28 17:09:28,947 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 1.00ms
-2016-06-28 17:09:28,950 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 2.00ms
-2016-06-28 17:09:28,953 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 1.00ms
-2016-06-28 17:09:29,003 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 1.00ms
-2016-06-28 17:09:29,006 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 2.00ms
-2016-06-28 17:09:29,009 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 2.00ms
-2016-06-28 17:09:29,013 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 1.00ms
-2016-06-28 17:09:29,019 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 2.00ms
-2016-06-28 17:09:29,025 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 4.00ms
-2016-06-28 17:09:29,028 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 2.00ms
-2016-06-28 17:09:29,035 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 1.00ms
-2016-06-28 17:09:29,046 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 1.00ms
-2016-06-28 17:09:29,112 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 2.00ms
-2016-06-28 17:09:29,161 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
-2016-06-28 17:09:29,167 - tornado.application - ERROR - Uncaught exception POST /image/list (127.0.0.1)
-HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/image/list', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '80', 'Accept-Language': 'zh-CN,zh;q=0.8,ko;q=0.6,en;q=0.4', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '127.0.0.1', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1941.0 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Cache-Control': 'max-age=0', 'Referer': 'http://127.0.0.1/image/list', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'Cookie': 'soc_user_right="2|1:0|10:1467104797|14:soc_user_right|44:OWU1ODc1OWUzZDBmMTFlNmE0Yjc3NDI5YWY1NWFjMTA=|5f70aaae549aaf2e06ab35b746488475294066879bb621c6535cf10fbfd1f27e"; _xsrf=2|d6a9fa80|2f088cbf36afc5b02abb0a328d61495b|1467104804'})
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\tornado\web.py", line 1443, in _execute
-    result = method(*self.path_args, **self.path_kwargs)
-TypeError: post() takes exactly 2 arguments (1 given)
-2016-06-28 17:09:29,171 - tornado.access - ERROR - 500 POST /image/list (127.0.0.1) 5.00ms
-2016-06-28 17:09:29,191 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 2.00ms
-2016-06-28 17:09:48,880 - tornado.general - INFO - D:\my project\tornado_demo\app\view\base.py modified; restarting server
-2016-06-28 17:09:51,424 - tornado.access - INFO - 200 GET /image/list (127.0.0.1) 10.00ms
-2016-06-28 17:09:52,035 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 305.00ms
-2016-06-28 17:09:52,038 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
-2016-06-28 17:09:52,039 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 1.00ms
-2016-06-28 17:09:52,040 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 1.00ms
-2016-06-28 17:09:52,042 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 1.00ms
-2016-06-28 17:09:52,045 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 1.00ms
-2016-06-28 17:09:52,092 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 1.00ms
-2016-06-28 17:09:52,104 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 8.00ms
-2016-06-28 17:09:52,115 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 11.00ms
-2016-06-28 17:09:52,124 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 2.00ms
-2016-06-28 17:09:52,127 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 2.00ms
-2016-06-28 17:09:52,130 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 2.00ms
-2016-06-28 17:09:52,135 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 3.00ms
-2016-06-28 17:09:52,140 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 2.00ms
-2016-06-28 17:09:52,141 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 1.00ms
-2016-06-28 17:09:52,210 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 2.00ms
-2016-06-28 17:09:52,256 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
-2016-06-28 17:09:52,263 - tornado.application - ERROR - Uncaught exception POST /image/list (127.0.0.1)
-HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/image/list', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '80', 'Accept-Language': 'zh-CN,zh;q=0.8,ko;q=0.6,en;q=0.4', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '127.0.0.1', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1941.0 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Cache-Control': 'max-age=0', 'Referer': 'http://127.0.0.1/image/list', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'Cookie': 'soc_user_right="2|1:0|10:1467104797|14:soc_user_right|44:OWU1ODc1OWUzZDBmMTFlNmE0Yjc3NDI5YWY1NWFjMTA=|5f70aaae549aaf2e06ab35b746488475294066879bb621c6535cf10fbfd1f27e"; _xsrf=2|d6a9fa80|2f088cbf36afc5b02abb0a328d61495b|1467104804'})
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\tornado\web.py", line 1443, in _execute
-    result = method(*self.path_args, **self.path_kwargs)
-TypeError: post() takes exactly 2 arguments (1 given)
-2016-06-28 17:09:52,266 - tornado.access - ERROR - 500 POST /image/list (127.0.0.1) 3.00ms
-2016-06-28 17:09:52,283 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 1.00ms
-2016-06-28 17:10:12,345 - tornado.general - INFO - D:\my project\tornado_demo\app\view\d_images.py modified; restarting server
-2016-06-28 17:10:18,999 - tornado.access - INFO - 200 GET /image/list (127.0.0.1) 9.00ms
-2016-06-28 17:10:19,644 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 305.00ms
-2016-06-28 17:10:19,647 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 1.00ms
-2016-06-28 17:10:19,648 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 1.00ms
-2016-06-28 17:10:19,651 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 2.00ms
-2016-06-28 17:10:19,654 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 2.00ms
-2016-06-28 17:10:19,655 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
-2016-06-28 17:10:19,658 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 2.00ms
-2016-06-28 17:10:19,661 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 2.00ms
-2016-06-28 17:10:19,664 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 2.00ms
-2016-06-28 17:10:19,667 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 1.00ms
-2016-06-28 17:10:19,670 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 2.00ms
-2016-06-28 17:10:19,720 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 1.00ms
-2016-06-28 17:10:19,721 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 1.00ms
-2016-06-28 17:10:19,740 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 2.00ms
-2016-06-28 17:10:19,750 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 1.00ms
-2016-06-28 17:10:19,816 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 2.00ms
-2016-06-28 17:10:19,918 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
-2016-06-28 17:10:19,928 - tornado.application - ERROR - Uncaught exception POST /image/list (127.0.0.1)
-HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/image/list', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '80', 'Accept-Language': 'zh-CN,zh;q=0.8,ko;q=0.6,en;q=0.4', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '127.0.0.1', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1941.0 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Cache-Control': 'max-age=0', 'Referer': 'http://127.0.0.1/image/list', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'Cookie': 'soc_user_right="2|1:0|10:1467104797|14:soc_user_right|44:OWU1ODc1OWUzZDBmMTFlNmE0Yjc3NDI5YWY1NWFjMTA=|5f70aaae549aaf2e06ab35b746488475294066879bb621c6535cf10fbfd1f27e"; _xsrf=2|d6a9fa80|2f088cbf36afc5b02abb0a328d61495b|1467104804'})
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\tornado\web.py", line 1443, in _execute
-    result = method(*self.path_args, **self.path_kwargs)
-  File "D:\my project\tornado_demo\app\view\d_images.py", line 21, in post
-    images = base_docker.Images('192.168.128.128').list()
-TypeError: list() takes exactly 2 arguments (1 given)
-2016-06-28 17:10:19,930 - tornado.access - ERROR - 500 POST /image/list (127.0.0.1) 5.00ms
-2016-06-28 17:10:19,948 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 1.00ms
-2016-06-28 17:10:54,538 - tornado.general - INFO - D:\my project\tornado_demo\app\view\d_images.py modified; restarting server
-2016-06-28 17:10:58,286 - tornado.access - INFO - 200 GET /image/list (127.0.0.1) 10.00ms
-2016-06-28 17:10:58,940 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 307.00ms
-2016-06-28 17:10:58,941 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 1.00ms
-2016-06-28 17:10:58,944 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 1.00ms
-2016-06-28 17:10:58,946 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 1.00ms
-2016-06-28 17:10:58,948 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 1.00ms
-2016-06-28 17:10:58,950 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 0.00ms
-2016-06-28 17:10:58,953 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 2.00ms
-2016-06-28 17:10:58,956 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 1.00ms
-2016-06-28 17:10:58,959 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 3.00ms
-2016-06-28 17:10:58,961 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 2.00ms
-2016-06-28 17:10:58,966 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 3.00ms
-2016-06-28 17:10:59,013 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 1.00ms
-2016-06-28 17:10:59,016 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 1.00ms
-2016-06-28 17:10:59,035 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 1.00ms
-2016-06-28 17:10:59,045 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 1.00ms
-2016-06-28 17:10:59,115 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 1.00ms
-2016-06-28 17:10:59,217 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
-2016-06-28 17:10:59,230 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
-2016-06-28 17:10:59,256 - tornado.access - INFO - 200 POST /image/list (127.0.0.1) 31.00ms
-2016-06-28 17:10:59,276 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 1.00ms
-2016-06-28 17:11:17,891 - tornado.general - INFO - D:\my project\tornado_demo\app\view\d_images.py modified; restarting server
-2016-06-28 17:11:20,154 - tornado.access - INFO - 200 GET /image/list (127.0.0.1) 9.00ms
-2016-06-28 17:11:20,720 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 301.00ms
-2016-06-28 17:11:20,723 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 1.00ms
-2016-06-28 17:11:20,724 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 1.00ms
-2016-06-28 17:11:20,726 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 1.00ms
-2016-06-28 17:11:20,729 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
-2016-06-28 17:11:20,730 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 1.00ms
-2016-06-28 17:11:20,779 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 1.00ms
-2016-06-28 17:11:20,783 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 2.00ms
-2016-06-28 17:11:20,788 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 3.00ms
-2016-06-28 17:11:20,789 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 1.00ms
-2016-06-28 17:11:20,793 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 2.00ms
-2016-06-28 17:11:20,802 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 6.00ms
-2016-06-28 17:11:20,805 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 2.00ms
-2016-06-28 17:11:20,811 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 2.00ms
-2016-06-28 17:11:20,822 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 1.00ms
-2016-06-28 17:11:20,882 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 2.00ms
-2016-06-28 17:11:20,928 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
-2016-06-28 17:11:20,940 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
-2016-06-28 17:11:20,964 - tornado.access - INFO - 200 POST /image/list (127.0.0.1) 29.00ms
-2016-06-28 17:11:20,983 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 1.00ms
-2016-06-28 17:11:40,351 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
-2016-06-28 17:11:40,371 - tornado.access - INFO - 200 POST /image/list (127.0.0.1) 24.00ms
-2016-06-28 17:11:44,750 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
-2016-06-28 17:11:44,773 - tornado.access - INFO - 200 POST /image/list (127.0.0.1) 29.00ms
-2016-06-28 17:11:55,644 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
-2016-06-28 17:11:55,661 - tornado.access - INFO - 200 POST /image/list (127.0.0.1) 22.00ms
-2016-06-28 17:11:59,763 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
-2016-06-28 17:11:59,783 - tornado.access - INFO - 200 POST /image/list (127.0.0.1) 24.00ms
-2016-06-28 17:12:09,112 - tornado.general - INFO - D:\my project\tornado_demo\app\view\d_images.py modified; restarting server
-2016-06-28 17:12:14,260 - tornado.general - INFO - D:\my project\tornado_demo\app\view\d_images.py modified; restarting server
-2016-06-28 17:12:16,946 - tornado.general - INFO - D:\my project\tornado_demo\app\view\d_images.py modified; restarting server
-2016-06-28 17:12:33,000 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 11.00ms
-2016-06-28 17:12:33,319 - tornado.application - ERROR - Uncaught exception POST /api/containers/list (127.0.0.1)
-HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/api/containers/list', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '99', 'Accept-Language': 'zh-CN,zh;q=0.8,ko;q=0.6,en;q=0.4', 'Accept-Encoding': 'gzip,deflate,sdch', 'Host': '127.0.0.1', 'Accept': 'application/json, text/javascript, */*; q=0.01', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1941.0 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://127.0.0.1/containers/list', 'Cookie': 'soc_user_right="2|1:0|10:1467104797|14:soc_user_right|44:OWU1ODc1OWUzZDBmMTFlNmE0Yjc3NDI5YWY1NWFjMTA=|5f70aaae549aaf2e06ab35b746488475294066879bb621c6535cf10fbfd1f27e"; _xsrf=2|d6a9fa80|2f088cbf36afc5b02abb0a328d61495b|1467104804', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'})
-Traceback (most recent call last):
-  File "C:\Python27\lib\site-packages\tornado\web.py", line 1443, in _execute
-    result = method(*self.path_args, **self.path_kwargs)
-  File "D:\my project\tornado_demo\app\view\d_containers.py", line 22, in post
-    containers = base_docker.Docker('192.168.128.128').containers()
-AttributeError: 'module' object has no attribute 'Docker'
-2016-06-28 17:12:33,321 - tornado.access - ERROR - 500 POST /api/containers/list (127.0.0.1) 3.00ms
-2016-06-28 17:12:50,140 - tornado.general - INFO - D:\my project\tornado_demo\app\url.py modified; restarting server
-2016-06-28 17:15:23,818 - tornado.general - INFO - D:\my project\tornado_demo\app\url.py modified; restarting server
-2016-06-28 17:15:26,812 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 8.00ms
-2016-06-28 17:15:27,375 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 323.00ms
-2016-06-28 17:15:27,378 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 1.00ms
-2016-06-28 17:15:27,381 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 2.00ms
-2016-06-28 17:15:27,382 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
-2016-06-28 17:15:27,384 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 1.00ms
-2016-06-28 17:15:27,385 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 1.00ms
-2016-06-28 17:15:27,391 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 4.00ms
-2016-06-28 17:15:27,394 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 2.00ms
-2016-06-28 17:15:27,398 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 2.00ms
-2016-06-28 17:15:27,400 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 2.00ms
-2016-06-28 17:15:27,401 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 1.00ms
-2016-06-28 17:15:27,407 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 3.00ms
-2016-06-28 17:15:27,420 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 1.00ms
-2016-06-28 17:15:27,434 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 1.00ms
-2016-06-28 17:15:27,483 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 3.00ms
-2016-06-28 17:15:27,523 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 2.00ms
-2016-06-28 17:15:27,588 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
-2016-06-28 17:15:27,604 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
-2016-06-28 17:15:27,694 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 94.00ms
-2016-06-28 17:15:27,717 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 1.00ms
-2016-06-28 17:15:30,183 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 7.00ms
-2016-06-28 17:15:30,503 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 2.00ms
-2016-06-28 17:15:30,505 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 2.00ms
-2016-06-28 17:15:30,506 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 1.00ms
-2016-06-28 17:15:30,509 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 2.00ms
-2016-06-28 17:15:30,510 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 2.00ms
-2016-06-28 17:15:30,516 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
-2016-06-28 17:15:30,523 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 2.00ms
-2016-06-28 17:15:30,536 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 2.00ms
-2016-06-28 17:15:30,548 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 2.00ms
-2016-06-28 17:15:30,556 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 1.00ms
-2016-06-28 17:15:30,569 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 2.00ms
-2016-06-28 17:15:30,581 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 2.00ms
-2016-06-28 17:15:30,615 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 2.00ms
-2016-06-28 17:15:30,632 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 2.00ms
-2016-06-28 17:15:30,644 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 1.00ms
-2016-06-28 17:15:30,730 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 2.00ms
-2016-06-28 17:15:30,782 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
-2016-06-28 17:15:30,792 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
-2016-06-28 17:15:30,799 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 11.00ms
-2016-06-28 17:15:30,819 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 1.00ms
-2016-06-28 17:50:51,986 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 108.00ms
-2016-06-28 17:50:52,743 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 110.00ms
-2016-06-28 17:50:52,805 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 62.00ms
-2016-06-28 17:50:52,819 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 12.00ms
-2016-06-28 17:50:52,861 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 43.00ms
-2016-06-28 17:50:52,885 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 23.00ms
-2016-06-28 17:50:52,926 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 39.00ms
-2016-06-28 17:50:52,934 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 7.00ms
-2016-06-28 17:50:52,947 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 12.00ms
-2016-06-28 17:50:52,960 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 12.00ms
-2016-06-28 17:50:52,969 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 7.00ms
-2016-06-28 17:50:52,970 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 1.00ms
-2016-06-28 17:50:52,983 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 12.00ms
-2016-06-28 17:50:53,790 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 1.00ms
-2016-06-28 17:50:53,835 - tornado.access - INFO - 304 GET /font-awesome/font/fontawesome-webfont.woff (127.0.0.1) 2.00ms
-2016-06-28 17:50:53,884 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 39.00ms
-2016-06-28 17:50:53,901 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 16.00ms
-2016-06-28 17:50:54,023 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 21.00ms
-2016-06-28 17:50:54,203 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 12.00ms
-2016-06-28 17:50:54,214 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
-2016-06-28 17:50:54,226 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 22.00ms
-2016-06-28 17:50:54,256 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 2.00ms
+2016-06-29 15:04:30,147 - tornado.access - ERROR - 500 POST /containers/start (127.0.0.1) 4.00ms
+2016-06-29 15:05:04,490 - tornado.general - INFO - D:\my project\tornado_demo\app\view\d_containers.py modified; restarting server
+2016-06-29 15:05:09,289 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 10.00ms
+2016-06-29 15:05:09,857 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 303.00ms
+2016-06-29 15:05:09,858 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 1.00ms
+2016-06-29 15:05:09,861 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
+2016-06-29 15:05:09,864 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 1.00ms
+2016-06-29 15:05:09,865 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 1.00ms
+2016-06-29 15:05:09,868 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 2.00ms
+2016-06-29 15:05:09,871 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 2.00ms
+2016-06-29 15:05:09,872 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 1.00ms
+2016-06-29 15:05:09,875 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 1.00ms
+2016-06-29 15:05:09,878 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 2.00ms
+2016-06-29 15:05:09,881 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 1.00ms
+2016-06-29 15:05:09,882 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 1.00ms
+2016-06-29 15:05:09,901 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 1.00ms
+2016-06-29 15:05:09,933 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 2.00ms
+2016-06-29 15:05:09,944 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 2.00ms
+2016-06-29 15:05:10,048 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 2.00ms
+2016-06-29 15:05:10,108 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 2.00ms
+2016-06-29 15:05:10,118 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 15:05:10,125 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 12.00ms
+2016-06-29 15:05:10,145 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 1.00ms
+2016-06-29 15:05:13,963 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 15:05:14,278 - tornado.access - INFO - 200 POST /containers/start (127.0.0.1) 318.00ms
+2016-06-29 15:05:14,342 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 7.00ms
+2016-06-29 15:05:14,673 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 15:05:14,678 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 9.00ms
+2016-06-29 15:05:18,644 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 15:05:18,946 - tornado.access - INFO - 200 POST /containers/start (127.0.0.1) 305.00ms
+2016-06-29 15:05:18,983 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 9.00ms
+2016-06-29 15:05:19,334 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 15:05:19,338 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 9.00ms
+2016-06-29 15:05:22,565 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 15:05:32,645 - tornado.access - INFO - 200 POST /containers/stop (127.0.0.1) 10088.00ms
+2016-06-29 15:05:32,727 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 11.00ms
+2016-06-29 15:05:33,055 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 15:05:33,059 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 8.00ms
+2016-06-29 15:05:39,956 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 15:05:50,026 - tornado.access - INFO - 200 POST /containers/stop (127.0.0.1) 10077.00ms
+2016-06-29 15:05:50,105 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 11.00ms
+2016-06-29 15:05:50,418 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 15:05:50,424 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 8.00ms
+2016-06-29 15:05:57,710 - tornado.access - WARNING - 405 POST /containers/delete/containers_del (127.0.0.1) 1.00ms
+2016-06-29 15:06:20,499 - tornado.general - INFO - D:\my project\tornado_demo\app\view\d_containers.py modified; restarting server
+2016-06-29 15:06:27,799 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 10.00ms
+2016-06-29 15:06:28,346 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 291.00ms
+2016-06-29 15:06:28,348 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 2.00ms
+2016-06-29 15:06:28,351 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 2.00ms
+2016-06-29 15:06:28,354 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 1.00ms
+2016-06-29 15:06:28,355 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 1.00ms
+2016-06-29 15:06:28,357 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
+2016-06-29 15:06:28,361 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 3.00ms
+2016-06-29 15:06:28,364 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 2.00ms
+2016-06-29 15:06:28,367 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 2.00ms
+2016-06-29 15:06:28,368 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 1.00ms
+2016-06-29 15:06:28,371 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 1.00ms
+2016-06-29 15:06:28,374 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 2.00ms
+2016-06-29 15:06:28,417 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 2.00ms
+2016-06-29 15:06:28,430 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 1.00ms
+2016-06-29 15:06:28,443 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 1.00ms
+2016-06-29 15:06:28,530 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 1.00ms
+2016-06-29 15:06:28,592 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
+2016-06-29 15:06:28,602 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 15:06:28,608 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 9.00ms
+2016-06-29 15:06:28,631 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 1.00ms
+2016-06-29 15:06:38,470 - tornado.access - WARNING - 405 POST /containers/delete/containers_del (127.0.0.1) 1.00ms
+2016-06-29 15:07:06,213 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 8.00ms
+2016-06-29 15:07:06,471 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 1.00ms
+2016-06-29 15:07:06,530 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 1.00ms
+2016-06-29 15:07:06,532 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 2.00ms
+2016-06-29 15:07:06,535 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
+2016-06-29 15:07:06,536 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 2.00ms
+2016-06-29 15:07:06,539 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 2.00ms
+2016-06-29 15:07:06,542 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 1.00ms
+2016-06-29 15:07:06,551 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 1.00ms
+2016-06-29 15:07:06,561 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 2.00ms
+2016-06-29 15:07:06,572 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 2.00ms
+2016-06-29 15:07:06,582 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 2.00ms
+2016-06-29 15:07:06,591 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 2.00ms
+2016-06-29 15:07:06,618 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 1.00ms
+2016-06-29 15:07:06,648 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 1.00ms
+2016-06-29 15:07:06,658 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 2.00ms
+2016-06-29 15:07:06,753 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 2.00ms
+2016-06-29 15:07:06,831 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 2.00ms
+2016-06-29 15:07:06,839 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 15:07:06,845 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 8.00ms
+2016-06-29 15:07:06,865 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 1.00ms
+2016-06-29 15:07:10,838 - tornado.access - WARNING - 405 POST /containers/delete/6be90567b86e37d463012a0c867f398e7412430febf1d58cf574f36663f3afe6 (127.0.0.1) 1.00ms
+2016-06-29 15:07:31,200 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 8.00ms
+2016-06-29 15:07:31,460 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 1.00ms
+2016-06-29 15:07:31,470 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 1.00ms
+2016-06-29 15:07:31,542 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 1.00ms
+2016-06-29 15:07:31,543 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
+2016-06-29 15:07:31,546 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 1.00ms
+2016-06-29 15:07:31,549 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 2.00ms
+2016-06-29 15:07:31,551 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 1.00ms
+2016-06-29 15:07:31,553 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 1.00ms
+2016-06-29 15:07:31,559 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 2.00ms
+2016-06-29 15:07:31,569 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 2.00ms
+2016-06-29 15:07:31,578 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 2.00ms
+2016-06-29 15:07:31,589 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 1.00ms
+2016-06-29 15:07:31,615 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 2.00ms
+2016-06-29 15:07:31,642 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 1.00ms
+2016-06-29 15:07:31,654 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 1.00ms
+2016-06-29 15:07:31,749 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 2.00ms
+2016-06-29 15:07:31,822 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
+2016-06-29 15:07:31,835 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 15:07:31,844 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 14.00ms
+2016-06-29 15:07:31,869 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 1.00ms
+2016-06-29 15:07:35,260 - root - ERROR - (<type 'exceptions.TypeError'>, TypeError('delete() takes exactly 2 arguments (1 given)',), <traceback object at 0x04947058>)
+2016-06-29 15:07:35,265 - tornado.access - INFO - 200 POST /containers/delete (127.0.0.1) 5.00ms
+2016-06-29 15:08:06,490 - tornado.general - INFO - D:\my project\tornado_demo\app\common\base_docker.py modified; restarting server
+2016-06-29 15:08:25,334 - tornado.general - INFO - D:\my project\tornado_demo\app\common\base_docker.py modified; restarting server
+2016-06-29 15:08:54,688 - tornado.general - INFO - D:\my project\tornado_demo\app\common\base_docker.py modified; restarting server
+2016-06-29 15:09:27,470 - tornado.general - INFO - D:\my project\tornado_demo\app\common\base_docker.py modified; restarting server
+2016-06-29 15:10:50,967 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 10.00ms
+2016-06-29 15:10:51,543 - tornado.access - INFO - 304 GET /css/bootstrap.min.css (127.0.0.1) 294.00ms
+2016-06-29 15:10:51,546 - tornado.access - INFO - 304 GET /css/misc.css (127.0.0.1) 1.00ms
+2016-06-29 15:10:51,549 - tornado.access - INFO - 304 GET /css/matrix-media.css (127.0.0.1) 1.00ms
+2016-06-29 15:10:51,551 - tornado.access - INFO - 304 GET /font-awesome/css/font-awesome.css (127.0.0.1) 1.00ms
+2016-06-29 15:10:51,552 - tornado.access - INFO - 304 GET /js/jquery-1.8.2.min.js (127.0.0.1) 1.00ms
+2016-06-29 15:10:51,555 - tornado.access - INFO - 304 GET /css/matrix-style.css (127.0.0.1) 1.00ms
+2016-06-29 15:10:51,558 - tornado.access - INFO - 304 GET /css/bootstrap-responsive.min.css (127.0.0.1) 2.00ms
+2016-06-29 15:10:51,601 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/WdatePicker.js (127.0.0.1) 2.00ms
+2016-06-29 15:10:51,604 - tornado.access - INFO - 304 GET /static/js/bootstrap.min.js (127.0.0.1) 1.00ms
+2016-06-29 15:10:51,607 - tornado.access - INFO - 304 GET /js/jquery.validate.js (127.0.0.1) 1.00ms
+2016-06-29 15:10:51,608 - tornado.access - INFO - 304 GET /js/misc.js (127.0.0.1) 1.00ms
+2016-06-29 15:10:51,614 - tornado.access - INFO - 304 GET /static/js/layer/layer.js (127.0.0.1) 2.00ms
+2016-06-29 15:10:51,618 - tornado.access - INFO - 304 GET /img/logo.png (127.0.0.1) 1.00ms
+2016-06-29 15:10:51,631 - tornado.access - INFO - 304 GET /Content/Scripts/datepicker/skin/WdatePicker.css (127.0.0.1) 2.00ms
+2016-06-29 15:10:51,641 - tornado.access - INFO - 304 GET /img/breadcrumb.png (127.0.0.1) 2.00ms
+2016-06-29 15:10:51,729 - tornado.access - INFO - 304 GET /static/js/layer/skin/layer.css (127.0.0.1) 1.00ms
+2016-06-29 15:10:51,796 - tornado.access - INFO - 304 GET /images/loading.gif (127.0.0.1) 1.00ms
+2016-06-29 15:10:51,806 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 15:10:51,815 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 12.00ms
+2016-06-29 15:10:51,836 - tornado.access - INFO - 304 GET /img/menu-active.png (127.0.0.1) 2.00ms
+2016-06-29 15:10:56,969 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 15:10:57,997 - tornado.access - INFO - 200 POST /containers/delete (127.0.0.1) 1032.00ms
+2016-06-29 15:10:58,059 - tornado.access - INFO - 200 GET /containers/list (127.0.0.1) 8.00ms
+2016-06-29 15:10:58,346 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): 192.168.128.128
+2016-06-29 15:10:58,352 - tornado.access - INFO - 200 POST /containers/list (127.0.0.1) 8.00ms

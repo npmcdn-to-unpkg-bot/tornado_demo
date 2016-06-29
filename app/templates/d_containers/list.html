@@ -41,13 +41,13 @@
                         <div id="DataTables_Table_0_wrapper" class="dataTables_wrapper" role="grid">
                             <table class="table table-bordered data-table dataTable" id="DataTables_Table_0">
                                 <thead>
-                                <tr role="row">
-                                    <th>名称</th>
-                                    <th>运行状态</th>
-                                    <th>镜像</th>
-                                    <th>服务地址</th>
-                                    <th>创建时间</th>
-                                </tr>
+                                    <tr role="row">
+                                        <th>名称</th>
+                                        <th>镜像</th>
+                                        <th>运行状态</th>
+                                        <th>创建时间</th>
+                                        <th>操作</th>
+                                    </tr>
                                 </thead>
 
                                 <tbody role="alert" aria-live="polite" aria-relevant="all" id="js_data">
@@ -126,11 +126,19 @@
                 $.each(data, function (index, array) {
                     li += "<tr>";
                     li += "<td>" + array['Names'].toString().replace('/', '') + "</td>"
-                    li += "<td id='" + array['Names'].toString().replace('/', '') + "status'>" + array['Status'] + "</td>"
                     li += "<td>" + array['Image'] + "</td>"
+                    li += "<td id='" + array['Names'].toString().replace('/', '') + "status'>" + array['Status'] + "</td>"
                     li += "<td>" + array['Created'] + "</td>"
-
-
+                    li += "<td><div class='btn-group'>"
+                    li += "<button class='btn btn-info'>操作</button>"
+                    li += "<button data-toggle='dropdown' class='btn btn-info dropdown-toggle'><span class='caret'></span></button>"
+                    li += "<ul class='dropdown-menu'>"
+                    li += "<li><a href='" + array["Id"] + "' id='containers_start'>启动</a></li>"
+                    li += "<li><a href='" + array["Id"] + "' id='containers_stop'>中止</a></li>"
+                    li += "<li class='divider'></li>"
+                    li += "<li><a href='" + array["Id"] + "' id='containers_del'>删除</a></li>"
+                    li += "</ul>"
+                    li += "</div></td>"
                     li += "</tr>";
                 });
                 $("#js_data").empty();
@@ -143,56 +151,130 @@
         })
     }
 
-    $(document).on("click", ".btn-danger", function (e) {
-            e.preventDefault();
-            var host_id = $(this).attr('id');
-            // alert(host_id)
-            $('#btn_delete').attr('data-whatever', host_id);
-            $('#modal-1').modal().on('show.bs.modal', function (event) {
-                var button = $(event.relatedTarget);
-                var recipient = button.data('whatever');
+    $(document).on("click", "#containers_start", function (e) {
+        e.preventDefault();
+        var id = $(this).attr('href');
+        var postData = '&id=' + id + '&_xsrf=' + getCookie("_xsrf");
 
-            })
+        $.ajax({
+            url: '/containers/start',
+            type: 'post',
+            data: postData,
+            dataType: 'json',
+            beforeSend: function () {
+
+            },
+            success: function (json) {
+                $('#modal-1').modal('hide')
+                if (json['msg'] == 'ok') {
+                    layer.msg('启动成功！', {
+                        icon: 1,
+                        time: 2000 //2秒关闭（如果不配置，默认是3秒）
+                    });
+                    window.location.href = '/containers/list';
+                }
+                else {
+                    layer.msg('启动失败！', {
+                        icon: 1,
+                        time: 2000 //2秒关闭（如果不配置，默认是3秒）
+                    });
+                }
+            },
+            error: function () {
+                layer.msg('启动失败！', {
+                    icon: 1,
+                    time: 2000 //2秒关闭（如果不配置，默认是3秒）
+                });
+            }
         })
+    })
 
-        function add() {
-            window.location.href = "/host/add";
-        }
-        function del(obj) {
-            var id = $(obj).attr('data-whatever');
-            var postData = '&id=' + id + '&_xsrf=' + getCookie("_xsrf");
+    $(document).on("click", "#containers_stop", function (e) {
+        e.preventDefault();
+        var id = $(this).attr('href');
+        var postData = '&id=' + id + '&_xsrf=' + getCookie("_xsrf");
 
-            $.ajax({
-                url: '/host/delete/' + id,
-                type: 'post',
-                data: postData,
-                dataType: 'json',
-                beforeSend: function () {
+        $.ajax({
+            url: '/containers/stop',
+            type: 'post',
+            data: postData,
+            dataType: 'json',
+            beforeSend: function () {
 
-                },
-                success: function (json) {
-                    $('#modal-1').modal('hide')
-                    if (json['msg'] == 'ok') {
-                        layer.msg('删除成功！', {
-                            icon: 1,
-                            time: 2000 //2秒关闭（如果不配置，默认是3秒）
-                        });
-                        window.location.href = '/host/list';
-                    }
-                    else {
-                        layer.msg('删除失败！', {
-                            icon: 1,
-                            time: 2000 //2秒关闭（如果不配置，默认是3秒）
-                        });
-                    }
-                },
-                error: function () {
+            },
+            success: function (json) {
+                $('#modal-1').modal('hide')
+                if (json['msg'] == 'ok') {
+                    layer.msg('中止成功！', {
+                        icon: 1,
+                        time: 2000 //2秒关闭（如果不配置，默认是3秒）
+                    });
+                    window.location.href = '/containers/list';
+                }
+                else {
+                    layer.msg('中止失败！', {
+                        icon: 1,
+                        time: 2000 //2秒关闭（如果不配置，默认是3秒）
+                    });
+                }
+            },
+            error: function () {
+                layer.msg('中止失败！', {
+                    icon: 1,
+                    time: 2000 //2秒关闭（如果不配置，默认是3秒）
+                });
+            }
+        })
+    })
+
+    $(document).on("click", "#containers_del", function (e) {
+        e.preventDefault();
+        var host_id = $(this).attr('href');
+        // alert(host_id)
+        $('#btn_delete').attr('data-whatever', host_id);
+        $('#modal-1').modal().on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget);
+            var recipient = button.data('whatever');
+
+        })
+    })
+
+
+    function del(obj) {
+        var id = $(obj).attr('data-whatever');
+        var postData = '&id=' + id + '&_xsrf=' + getCookie("_xsrf");
+
+        $.ajax({
+            url: '/containers/delete',
+            type: 'post',
+            data: postData,
+            dataType: 'json',
+            beforeSend: function () {
+
+            },
+            success: function (json) {
+                $('#modal-1').modal('hide')
+                if (json['msg'] == 'ok') {
+                    layer.msg('删除成功！', {
+                        icon: 1,
+                        time: 2000 //2秒关闭（如果不配置，默认是3秒）
+                    });
+                    window.location.href = '/containers/list';
+                }
+                else {
                     layer.msg('删除失败！', {
                         icon: 1,
                         time: 2000 //2秒关闭（如果不配置，默认是3秒）
                     });
                 }
-            })
-        }
+            },
+            error: function () {
+                layer.msg('删除失败！', {
+                    icon: 1,
+                    time: 2000 //2秒关闭（如果不配置，默认是3秒）
+                });
+            }
+        })
+    }
 </script>
 {% end %}

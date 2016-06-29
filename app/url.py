@@ -16,7 +16,7 @@ from view.v_system import SystemList, SystemDetail, SystemListData, SystemDetail
 from view.v_email import EmailList, EmailData
 from view.v_sms import SMSList, SMSData
 from view.d_images import ImagesList, ImagesDel
-from view.d_containers import ContainersList
+from view.d_containers import ContainersList, ContainersStart, ContainersStop, ContainersDelete
 
 
 
@@ -78,6 +78,9 @@ urls = [
     (r"/image/delete/(\w+)", ImagesDel),
 
     (r"/containers/list", ContainersList),
+    (r"/containers/start", ContainersStart),
+    (r"/containers/stop", ContainersStop),
+    (r"/containers/delete", ContainersDelete),
 
     (r"/system", SystemList),
     (r"/system/detail/(\w+)", SystemDetail),

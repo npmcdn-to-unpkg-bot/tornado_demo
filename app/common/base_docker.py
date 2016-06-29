@@ -92,10 +92,24 @@ class Containers():
         self.c = docker.Client(base_url='tcp://%s:2376' % ip, version='1.19', timeout=5)
 
     def list(self):
-        return self.c.containers()
+        return self.c.containers(all=True)
 
+    def start(self, container):
+        return self.c.start(container=container)
+
+    def stop(self, container):
+        return self.c.stop(container=container)
+
+    def delete(self, container):
+        return self.c.remove_container(container=container, force=True)
 
 if __name__ == '__main__':
-    print Images('192.168.128.128').list('*/mon*')
+    # print Images('192.168.128.128').list('*/mon*')
     # print Images('192.168.128.128').remove('ubuntu')
     # print Images('192.168.128.128').inspect('b2cdf227209f9f8d119974698e0912b93c15736249e64415d02aed2576ae3994')
+    print Containers('192.168.128.128').list()
+
+    # print Containers('192.168.128.128').start('03c0301cdeb2c884e817e9ed2c39e30e753c02ddee7c12dbe93bc7033e432786')
+    # print Containers('192.168.128.128').stop('03c0301cdeb2c884e817e9ed2c39e30e753c02ddee7c12dbe93bc7033e432786')
+    print Containers('192.168.128.128').delete('03c0301cdeb2c884e817e9ed2c39e30e753c02ddee7c12dbe93bc7033e432786')
+
